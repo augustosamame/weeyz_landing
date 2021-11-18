@@ -34,7 +34,7 @@ window.SEMICOLON_onePageModule = function( $onePageMenuEl ){
 				$('html,body').stop(true, true).animate({
 					'scrollTop': linkElementOff - Number( linkElSettings.offset )
 				}, linkElSettings.speed, linkElSettings.easing );
-			}, 1200);
+			}, 100);
 		}
 
 	}
@@ -43,10 +43,10 @@ window.SEMICOLON_onePageModule = function( $onePageMenuEl ){
 		if( 'pluginOnePageModuleReady' in scwEvents ) {
 			windowEl.scrollEnd( function(){
 				SEMICOLON_onePageScroller();
-			}, 500 );
+			}, 100 );
 			clearInterval( onePageScrollInterval );
 		}
-	}, 1000 );
+	}, 100 );
 
 	$onePageMenu.each( function(){
 

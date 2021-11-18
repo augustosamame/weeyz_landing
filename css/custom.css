@@ -1,13 +1,23 @@
 /* ----------------------------------------------------------------
-	Custom CSS
-
-	Add all your Custom Styled CSS here for New Styles or
-	Overwriting Default Theme Styles for Better Handling Updates
+	Custom CSS By Jawad Amin 成龙
+	https://www.JawadAmin.com
 -----------------------------------------------------------------*/
 
 
 /* Border Form Design
 ---------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1180px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1320px;
+    }
+}
 
 .border-form-control {
     height: 30px;
@@ -74,8 +84,6 @@ textarea.border-form-control {
     font-family: 'Poppins' !important;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 44px;
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
@@ -375,6 +383,12 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     .footer-column:last-child {
         padding-left: 70px;
         padding-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fs-1 {
+        font-size: 2rem !important;
     }
 }
 
