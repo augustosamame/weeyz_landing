@@ -4,6 +4,7 @@
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="author" content="SemiColonWeb"/>
+    <meta name="robots" content="noindex">
 
     <!-- Stylesheets
     ============================================= -->
@@ -27,14 +28,14 @@
     <!-- Bootstrap Switch CSS -->
     <link rel="stylesheet" href="css/components/bs-switches.css" type="text/css"/>
 
-    <link rel="stylesheet" href="css/custom.css?v=2" type="text/css"/>
+    <link rel="stylesheet" href="css/custom.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <link rel="stylesheet" href="css/colors.php?color=FE8415" type="text/css"/>
 
     <!-- Document Title
     ============================================= -->
-    <title>App Landing | Canvas</title>
+    <title>Weeyz | Gana Cripto por tus compras diarias</title>
 
 </head>
 
@@ -74,7 +75,7 @@
                     ============================================= -->
                     <nav class="primary-menu not-dark col-lg order-lg-2 px-0">
                         <ul class="menu-container justify-content-lg-end one-page-menu" data-easing="easeInOutExpo"
-                            data-speed="100" data-offset="64">
+                            data-speed="1250" data-offset="160">
                             <li class="menu-item"><a class="menu-link" href="#" data-href="#section-intro">
                                 <div>Conócenos</div>
                             </a></li>
@@ -104,14 +105,14 @@
             <div class="vertical-middle slider-element-fade">
                 <div class="container dark py-5 py-md-0">
                     <div class="row d-flex-centered">
-                        <div class="col-lg-3 col-md-4 center mt-md-6">
-                            <img src="images/weeyz_images/main-cell.png" alt="Weeyz Mobile" data-animate="fadeInLeft"
-                                 class="max-vh-75">
+                        <div class="col-lg-3 col-md-4">
+                            <img src="images/weeyz_images/main-cell.png" alt="Weeyz Mobile" data-animate="fadeInLeft">
                         </div>
                         <div class="col-lg-7 offset-lg-1 col-md-8 text-center">
-                            <h1 class="font-body fs-2 fadeIn animated fw-normal mb-4 mt-4" data-animate="fadeIn"
-                                data-delay="1">Conectamos a millones de
-                                personas con llamadas, chats y más</h1>
+                            <div class="emphasis-title">
+                                <h1 class="font-body" data-animate="fadeIn" data-delay="1">Conectamos a millones de
+                                    personas con llamadas, chats y más</h1>
+                            </div>
                             <div class="download-icons d-flex-centered">
                                 <a href="#"><img src="images/weeyz_images/app-store.png"
                                                  class="img-fluid delay-05s"
@@ -134,9 +135,9 @@
         <div class="content-wrap">
             <div id="section-intro" class="page-section">
                 <div class="container clearfix">
-                    <div class="row clearfix align-items-end">
+                    <div class="row clearfix">
                         <div class="col-lg-5">
-                            <div class="topmargin-lg"></div>
+                            <div class="topmargin-lg d-none d-lg-block"></div>
                             <div class="emphasis-title mb-3">
                                 <span class="before-heading">CONÓCENOS</span>
                                 <h2 class="font-body fw-bold fs-1 ls1">¡Bienvenido a Weeyz!</h2>
@@ -150,7 +151,6 @@
                             <div class="mt-5 d-none d-lg-block"></div>
                             <a href="#"
                                class="button button-large button-rounded text-capitalize ls0 font-lato fw-bold">Descargar</a>
-                            <div class="topmargin-lg"></div>
                         </div>
                         <div class="col-lg-7 center">
                             <img src="images/weeyz_images/chicos-image.png" data-animate="fadeInRight">
@@ -285,10 +285,10 @@
                                                     name="template-contactform-category"
                                                     class="sm-form-control border-form-control required">
                                                 <option value="">Selecciona</option>
-                                                <option value="Option 1">Option 1</option>
-                                                <option value="Option 2">Option 2</option>
-                                                <option value="Option 3">Option 3</option>
-                                                <option value="Option 4">Option 4</option>
+                                                <option value="">Alimentos y Bebidas</option>
+                                                <option value="">Retail</option>
+                                                <option value="">Servicios</option>
+                                                <option value="">Otros</option>
                                             </select>
                                         </div>
                                         <div class="w-100"></div>
@@ -303,7 +303,7 @@
                                             <label for="template-contactform-telephone">Teléfono (Whatsapp)</label>
                                             <input type="text" id="template-contactform-telephone"
                                                    name="template-contactform-telephone" value=""
-                                                   class="required telephone sm-form-control border-form-control"
+                                                   class="required email sm-form-control border-form-control"
                                                    placeholder="+51"/>
                                         </div>
                                         <div class="col-md-6 mb-4">
@@ -342,10 +342,9 @@
                                                    name="template-contactform-botcheck" value=""
                                                    class="sm-form-control"/>
                                         </div>
+
                                         <input type="hidden" name="prefix" value="template-contactform-">
-                                        <input type="hidden" name="subject" value="Contact Form Submission From Website">
-                                        <input type="hidden" name="replyto" value="template-contactform-email">
-                                        <input type="hidden" name="html_title" value="Contact Form Submission From Website">
+
                                     </form>
 
                                 </div>
