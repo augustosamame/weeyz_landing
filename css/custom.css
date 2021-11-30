@@ -285,7 +285,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 #section-download {
-    background: rgba(255, 163, 53, 0.1) url('../images/weeyz_images/download-bg.png');
+    background: rgba(255, 163, 53, 0.1);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
