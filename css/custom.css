@@ -81,7 +81,7 @@ textarea.border-form-control {
 }
 
 #slider .emphasis-title h1 {
-    font-family: 'Poppins' !important;
+    font-family: 'Nunito' !important;
     font-style: normal;
     font-weight: normal;
     text-align: center;
@@ -101,18 +101,18 @@ textarea.border-form-control {
 }
 
 .before-heading {
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 44px;
     letter-spacing: 0.105em;
-    color: #FE8415;
+    color: #BD5611;
 
 }
 
 .subtitle-text {
-    font-family: Poppins;
+    font-family: Nunito;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -168,11 +168,11 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .service-icon {
-    background-image: url('../images/weeyz_images/icon-bg.png');
+    /*background-image: url('../images/weeyz_images/icon-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     padding: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;*/
 }
 
 .service-title {
@@ -186,7 +186,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
 .service-icon img {
     margin: 0 auto;
-    max-height: 41px;
+    max-height: 70px;
+    margin-bottom: 15px;
 }
 
 .download-icons a {
@@ -280,7 +281,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 ::placeholder {
-    font-family: 'Poppins' !important;
+    font-family: 'Nunito' !important;
 }
 
 #section-download {
@@ -367,6 +368,17 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 .footer-column {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.text-shadow-home {
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 52%);
+}
+
+.fw-bold {
+    font-weight: 800 !important;
+}
+.link-feel li {
+    color: #98A1A8;
 }
 
 @media screen and (min-width: 1200px) {

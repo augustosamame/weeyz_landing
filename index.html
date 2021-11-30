@@ -8,7 +8,7 @@
 
     <!-- Stylesheets
     ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Lato:300,400,600,700,900|Montserrat:400,700|Merriweather&display=swap"
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Nunito:400,600,700,800|Lato:300,400,600,700,900|Montserrat:400,700|Merriweather&display=swap"
           rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="style.css" type="text/css"/>
@@ -30,9 +30,8 @@
 
     <link rel="stylesheet" href="css/custom.css?v=2" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <link rel="stylesheet" href="css/colors.php?color=FE8415" type="text/css"/>
-
+<!--    <link rel="stylesheet" href="css/colors.php?color=FE8415" type="text/css"/>-->
+    <link rel="stylesheet" href="css/colors-orange.css?v=2" type="text/css"/>
     <!-- Document Title
     ============================================= -->
     <title>Weeyz | Gana Cripto por tus compras diarias</title>
@@ -100,24 +99,26 @@
 
     <section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header">
         <div class="slider-inner" style="background: url('images/weeyz_images/hero-image-new.png') center center no-repeat; background-size: cover;">
-alc
-
             <div class="vertical-end slider-element-fade">
                 <div class="container dark">
                     <div class="row d-flex-centered">
-                        <div class="col-lg-7 col-md-4 center">
+                        <div class="col-lg-7 col-md-4 center col-lg-7 col-md-4 order-2 order-lg-1">
                             <img src="images/weeyz_images/weeyz-hand.png" alt="Weeyz Mobile" data-animate="fadeInLeft" class="img-fluid">
                         </div>
-                        <div class="col-lg-5 col-md-8 text-center">
-                            <h1 class="font-body fs-2 fadeIn animated fw-normal mb-4 mt-4" data-animate="fadeIn"
-                                data-delay="1">Conectamos a millones de
-                                personas con llamadas, chats y más</h1>
-                            <div id="countdown-ex1" class="countdown countdown-large coming-soon mx-auto mb-5" data-year="2021" data-month="12" data-day="21" style="max-width:700px;"></div>
-                            <div class="download-icons d-flex-centered">
+                        <div class="col-lg-5 col-md-8 text-center order-1 order-lg-2 mt-md-0 mt-lg-0 mt-6">
+                            <h1 class="font-body fs-1 fadeIn animated fw-bold font-lato mb-4 text-shadow-home" data-animate="fadeIn"
+                                data-delay="1">Communicate rapido<br>
+                                invierte seguro</h1>
+                            <div class="fs-3 font-lato mb-5 mb-sm-4">(VERSION BETA)</div>
+                            <div id="countdown-ex1" class="countdown countdown-large coming-soon mx-auto mb-lg-5 mb-3" data-year="2021" data-month="12" data-day="21" data-hour="23" data-minute="00" data-second="00" style="max-width:700px;"></div>
+                            <div class="download-icons d-flex-centered mt-5 mt-sm-4">
+                                <a href="#"><img src="images/weeyz_images/play-store.png"
+                                                 class="img-fluid delay-05s"
+                                                 data-animate="fadeInUp"></a>
                                 <a href="#"><img src="images/weeyz_images/app-store.png"
                                                  class="img-fluid delay-05s"
                                                  data-animate="fadeInUp"></a>
-                                <a href="#"><img src="images/weeyz_images/play-store.png"
+                                <a href="#"><img src="images/weeyz_images/video-btn.png"
                                                  class="img-fluid delay-05s"
                                                  data-animate="fadeInUp"></a>
                             </div>
@@ -144,7 +145,7 @@ alc
                             </div>
                             <div class="d-none d-lg-block"><img src="images/weeyz_images/dots-bg.png"
                                                                 class="position-absolute dots-img"/></div>
-                            <p class="subtitle-text">La única red social de consumo que brinda cashback en forma de criptomoneda, por compras del usuario y de sus contactos</p>
+                            <p class="subtitle-text">La única red social de consumo que brinda cashback en forma de criptomoneda <strong>(Weeyz Coin)</strong>, por compras del usuario y de sus contactos</p>
                             <div class="mt-5 d-none d-lg-block"></div>
                             <a href="#"
                                class="button button-large button-rounded text-capitalize ls0 font-lato fw-bold">Descargar</a>
@@ -159,37 +160,27 @@ alc
             <div id="section-services" class="page-section">
                 <div class="container clearfix">
                     <div class="row clearfix">
-                        <div class="col-lg service-box center" data-animate="fadeInDown">
+                        <div class="col-lg-3 service-box center" data-animate="fadeInDown">
                             <div class="service-icon"><img src="images/weeyz_images/chat-icon.png"></div>
-                            <h2 class="service-title fs-4 mb-2 fw-bold">MENSAJES</h2>
-                            <p class="service-description"><strong class="font-lato">Comunícate</strong> con tus amigos
-                                mediante mensajes</p>
+                            <h2 class="service-title fs-4 mb-2 fw-bold">MENSAJERÍA</h2>
+                            <p class="service-description">Comunícate Una nueva forma de comunicarte con amigos y/o compañeros de trabajo
+                            </p>
                         </div>
-                        <div class="col-lg service-box center" data-animate="fadeInDown">
-                            <div class="service-icon"><img src="images/weeyz_images/diversity-icon.png"></div>
-                            <h2 class="service-title fs-4 mb-2 fw-bold">DIVIÉRTETE</h2>
-                            <p class="service-description"><strong class="font-lato">Crea y comparte</strong> divertidas
-                                publicaciones. Fotos, videos, historias y más...</p>
-                        </div>
-                        <div class="col-lg service-box center" data-animate="fadeInDown">
+                        <div class="col-lg-3 service-box center" data-animate="fadeInDown">
                             <div class="service-icon"><img src="images/weeyz_images/shop-icon.png"></div>
-                            <h2 class="service-title fs-4 mb-2 fw-bold">ALIADOS</h2>
-                            <p class="service-description">Miles de <strong class="font-lato">comercios aliados</strong>
-                                Compra de forma: rápida, comoda y segura.<br><strong class="font-lato">y olvídate de las
-                                    colas</strong></p>
+                            <h2 class="service-title fs-4 mb-2 fw-bold">MARKET</h2>
+                            <p class="service-description">Compra y realiza pagos de servicios de forma: rápida, comoda y segura.
+                                y olvídate de las colas</p>
                         </div>
-                        <div class="col-lg service-box center" data-animate="fadeInDown">
-                            <div class="service-icon"><img src="images/weeyz_images/promotion-icon.png"></div>
-                            <h2 class="service-title fs-4 mb-2 fw-bold">PROMOCIONES</h2>
-                            <p class="service-description">Recibe <strong class="font-lato">retornos</strong> en todas
-                                tus compras. También descuentos y ofertas exclusivas</p>
+                        <div class="col-lg-3 service-box center" data-animate="fadeInDown">
+                            <div class="service-icon"><img src="images/weeyz_images/wallet-icon.png"></div>
+                            <h2 class="service-title fs-4 mb-2 fw-bold">WALLET</h2>
+                            <p class="service-description">Miles de Recibe, cobra y revisa tu historial dentro de la plataforma Weeyz</p>
                         </div>
-                        <div class="col-lg service-box center" data-animate="fadeInDown">
-                            <div class="service-icon"><img src="images/weeyz_images/mobile-icon.png"></div>
-                            <h2 class="service-title fs-4 mb-2 fw-bold">INFLUENCER</h2>
-                            <p class="service-description">Conviértete en un <strong class="font-lato">weeyzer</strong>
-                                y <strong class="font-lato">monetiza</strong> tus publicaciones y también por las
-                                compras de tus contactos directos</p>
+                        <div class="col-lg-3 service-box center" data-animate="fadeInDown">
+                            <div class="service-icon"><img src="images/weeyz_images/weeyz-icon.png"></div>
+                            <h2 class="service-title fs-4 mb-2 fw-bold">WEEYZ COIN</h2>
+                            <p class="service-description">Recibe cashback de criptomoneda (Weeyz Coin) por compras habituales en el market y otras actividades en la app</p>
                         </div>
                     </div>
                 </div>
@@ -352,7 +343,7 @@ alc
                     </div>
                 </div>
             </div>
-            <div id="section-download" class="page-section">
+            <div id="section-download_old" class="page-section d-none">
                 <div class="container clearfix">
                     <div class="row clearfix">
                         <div class="col-lg-5">
@@ -382,6 +373,37 @@ alc
                     </div>
                 </div>
             </div>
+            <div id="section-download" class="page-section">
+                <div class="container clearfix">
+                    <div class="row clearfix">
+                        <div class="col-lg-6">
+                            <div class="emphasis-title mb-3">
+                                <span class="before-heading" data-animate="fadeInUp">WEEYZ COIN</span>
+                                <h2 class="font-body fw-bold fs-1 ls1" data-animate="fadeInUp">¡Sé el primero en vivir
+                                    la experiencia!</h2>
+                            </div>
+                            <div class="d-none d-lg-block"><img src="images/weeyz_images/dots-bg.png"
+                                                                class="position-absolute dots-img"/></div>
+                            <p class="subtitle-text" data-animate="fadeInDown">La única criptomoneda en el mundo que aumenta su valor con el uso de la app, <strong>mediante actividades o compras habituales</strong> de miles de personas</p>
+                            <p class="subtitle-text" data-animate="fadeInDown">¡Es tu oportunidad! Invierte ahora a un mejor precio:<br><strong class="text-orange">5 veces más económico que en la venta pública.</strong></p>
+                            <a href="#"
+                               class="mt-4 button button-outline button-large button-rounded text-capitalize ls0 font-lato fw-bold"
+                               data-animate="fadeInDown">Descargar</a>
+                            <div class="mt-4 download-icons" data-animate="fadeInDown">
+                                <a href="#"><img src="images/weeyz_images/app-store-color.png"
+                                                 class="img-fluid delay-05s"
+                                                 data-animate="fadeInUp"></a>
+                                <a href="#"><img src="images/weeyz_images/play-store-color.png"
+                                                 class="img-fluid delay-05s"
+                                                 data-animate="fadeInUp"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-block d-md-none d-lg-none">
+                            <img src="images/weeyz_images/download-bg.png" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section><!-- #content end -->
 
@@ -391,7 +413,7 @@ alc
 
         <div class="footer-logo-section p-5">
             <div class="container">
-                <img src="images/weeyz_images/footer-logo.png" class="img-fluid" style="height:40px;">
+                <img src="images/weeyz_images/weeyz-logo-white.png" class="img-fluid" style="height:40px;">
             </div>
         </div>
         <div class="container">
@@ -404,32 +426,32 @@ alc
                             <h4>Categorías</h4>
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <ul>
-                                        <li><a href="#">Bodegas</a></li>
-                                        <li><a href="#">Supermercados</a></li>
-                                        <li><a href="#">Restaurantes</a></li>
-                                        <li><a href="#">Tecnología</a></li>
-                                        <li><a href="#">Salud</a></li>
-                                        <li><a href="#">Belleza</a></li>
+                                    <ul class="link-feel">
+                                        <li>Bodegas</li>
+                                        <li>Supermercados</li>
+                                        <li>Restaurantes</li>
+                                        <li>Tecnología</li>
+                                        <li>Salud</li>
+                                        <li>Belleza</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-4">
-                                    <ul>
-                                        <li><a href="#">Turismo</a></li>
-                                        <li><a href="#">Muebles</a></li>
-                                        <li><a href="#">Moda</a></li>
-                                        <li><a href="#">Calzado</a></li>
-                                        <li><a href="#">Educación</a></li>
-                                        <li><a href="#">Juguetería</a></li>
+                                    <ul class="link-feel">
+                                        <li>Turismo</li>
+                                        <li>Muebles</li>
+                                        <li>Moda</li>
+                                        <li>Calzado</li>
+                                        <li>Educación</li>
+                                        <li>Juguetería</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-4">
-                                    <ul>
-                                        <li><a href="#">Automotriz</a></li>
-                                        <li><a href="#">Taxi</a></li>
-                                        <li><a href="#">Contabilidad</a></li>
-                                        <li><a href="#">Derecho</a></li>
-                                        <li><a href="#">Construcción</a></li>
+                                    <ul class="link-feel">
+                                        <li>Automotriz</li>
+                                        <li>Taxi</li>
+                                        <li>Contabilidad</li>
+                                        <li>Derecho</li>
+                                        <li>Construcción</li>
                                     </ul>
                                 </div>
                             </div>

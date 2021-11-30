@@ -13,7 +13,7 @@ small,
 .skills li .progress-percent .counter,
 .nav-tree ul ul a,
 .font-body {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Nunito', sans-serif !important;
 }
 
 
@@ -38,7 +38,7 @@ label,
 .nav-tree li a,
 .wedding-head,
 .font-primary {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Nunito', sans-serif !important;
 }
 
 
@@ -54,13 +54,13 @@ label,
 .wedding-head .first-name span,
 .wedding-head .last-name span,
 .font-secondary {
-    font-family: 'Poppins', serif !important;
+    font-family: 'Nunito', serif !important;
 }
 
 .font-lato {
     font-family: 'Lato', serif !important;
 }
 
-.font-poppins {
-    font-family: 'Poppins', serif !important;
+.font-Nunito {
+    font-family: 'Nunito', serif !important;
 }
