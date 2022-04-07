@@ -299,6 +299,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     background-repeat: no-repeat;
     background-position: right center;
     padding-top: 130px;
+    padding-bottom: 260px;
 
 }
 
@@ -458,7 +459,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .curveBgGrey2 {
-    background: url(../images/weeyz_images/newlanding/grey-curve3.png) 0% 0% / cover;
+    background: url(../images/weeyz_images/newlanding/grey-curve5.png) 0% 0% / cover;
     margin-top: -210px;
     min-height: 210px;
 }
@@ -466,6 +467,12 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 .curveBgGirl {
     background: url(../images/weeyz_images/newlanding/girl2bg.png) 0% 0% / cover;
     margin-top: -320px;
+    min-height: 320px;
+}
+
+.curveBgMan {
+    background: url(../images/weeyz_images/newlanding/curvebgman.png) 0% 0% / cover;
+    margin-top: -225px;
     min-height: 320px;
 }
 
@@ -488,6 +495,10 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 .fs-26 {
     font-size: 26px;
     line-heiht: 34px;
+}
+
+#section-register2 {
+    padding-bottom: 220px;
 }
 
 @media screen and (min-width: 1200px) {
