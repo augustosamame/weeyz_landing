@@ -144,7 +144,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     background-size: contain;
     background-position: bottom center;
     background-repeat: no-repeat;*/
-    padding-top: 360px;
+    padding-top: 600px;
     padding-bottom: 280px;
 }
 
@@ -314,36 +314,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     color: #fff;
 }
 
-#footer {
-    background: #282828;
-    color: #616E78;
-}
-
-#footer a {
-    color: #616E78;
-}
-
-.footer-logo-section {
-    border-bottom: 1px solid #616E78;
-}
-
-#footer .widget h4 {
-    font-family: 'Lato' !important;
-    font-style: normal !important;
-    font-weight: bold !important;
-    font-size: 18px !important;
-    line-height: 26px !important;
-    text-transform: unset !important;
-    color: #98A1A8 !important;
-    letter-spacing: 0 !important;
-}
-
-#footer .footer-widgets-wrap {
-    padding: 0;
-}
 
 .footer-column {
-    border-right: 1px solid #616e78;
     padding-top: 40px;
 }
 
@@ -353,27 +325,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     padding-right: 0;
 }
 
-#footer a {
-    color: #98A1A8;
-}
-
-#footer .widget_links li {
-    padding: 13px 0;
-}
-
-#footer .widget_links li a {
-    padding: 0;
-    background: transparent;
-    font-size: 16px;
-    line-height: 26px;
-}
-
-#footer .widget_links li a:hover {
-    color: #d0d0d0;
-}
-
 #copyrights, #copyrights a {
-    color: #616E78;
+    color: #fff;
 }
 
 .footer-column {
@@ -385,12 +338,16 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     text-shadow: 0px 0px 15px rgb(0 0 0 / 52%);
 }
 
+.widget {
+    margin-top: 0px;
+}
+
 .fw-bold {
     font-weight: 800 !important;
 }
 
 .link-feel li {
-    color: #98A1A8;
+    color: #fff;
 }
 
 .button-green {
@@ -454,8 +411,9 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
 .curveBgOrange {
     background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;
-    margin-top: -320px;
-    min-height: 320px;
+    margin-top: -340px;
+    min-height: 366px;
+    background-size: cover;
 }
 
 .curveBgGrey2 {
@@ -482,6 +440,66 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     border-radius: 25.3981px;
     padding: 50px 5px;
     min-height: 320px;
+    margin-top: 10px;
+}
+
+#footer {
+    border-top: 0;
+    background: transparent;
+    margin-top: -210px;
+}
+
+.footer_top_curve {
+    background: url(../images/weeyz_images/newlanding/green-curve.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 210px;
+    background-size: cover;
+}
+
+.footer_bottom {
+    background: #1bb998;
+}
+
+.footer-logo-section {
+    border-bottom: 1px solid #616E78;
+}
+
+#footer .widget h4 {
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    text-transform: unset !important;
+    color: #fff !important;
+    letter-spacing: 0 !important;
+}
+
+#footer .footer-widgets-wrap {
+    padding: 0;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer .widget_links li {
+    padding: 7px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#footer .widget_links li a {
+    padding: 0;
+    background: transparent;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#footer .widget_links li a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .mt-200 {
@@ -494,11 +512,23 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
 .fs-26 {
     font-size: 26px;
-    line-heiht: 34px;
+    line-height: 34px;
 }
 
 #section-register2 {
     padding-bottom: 220px;
+}
+
+.device-touch .menu-container > .menu-item > .menu-link {
+    color: #000;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: normal;
+    color: #e8630b;
+}
+
+.svg-trigger path {
+    stroke: #E8630B;
 }
 
 @media screen and (min-width: 1200px) {
@@ -530,14 +560,63 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 }
 
-@media screen and (max-width: 500px) {
-    #section-download {
-        background: rgba(255, 163, 53, 0.1) !important;
+@media screen and (max-width: 1024px) {
+    .user-icon-menu {
+        display: none;
     }
+}
 
+@media (max-width: 500px) {
     .footer-column {
-        border-bottom: 1px solid;
         padding: 20px;
     }
+
+    .device-touch #header-wrap {
+        background: #fff;
+    }
+
+    .service-box {
+        margin: 30px 30px 50px 30px;
+    }
+
+    #section-intro {
+        padding-top: 190px;
+        padding-bottom: 330px;
+    }
+
+    .curveBgGrey {
+        background-position: center !important;
+    }
+
+    .curveBgOrange {
+        margin-top: -240px;
+        min-height: 130px;
+    }
+
+    .footer_top_curve {
+        min-height: 80px;
+    }
+
+    .mt-300 {
+        margin-top: 30px;
+    }
+
+    .curveBgGrey2 {
+        background: url(../images/weeyz_images/newlanding/main-image-shape.png) 0% 0% / cover;
+        margin-top: -73px;
+        min-height: 260px;
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .slider-curve-bg {
+        background: url(../images/weeyz_images/newlanding/grey-curve2.png) 0% 0% / cover;
+        background-size: cover !important;
+        width: 810px;
+        height: 230px;
+        background-position: right;
+    }
+
 }
 
