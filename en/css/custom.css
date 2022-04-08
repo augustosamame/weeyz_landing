@@ -531,6 +531,27 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     stroke: #E8630B;
 }
 
+.modal-container {
+    border-radius: 50px;
+}
+
+.modal-close {
+    font-size: 30px;
+    position: relative;
+    left: -40px;
+    top: 0px;
+    color: #98A1A8;
+}
+
+.modal-list {
+    font-size: 24px;
+    color: #616E78;
+}
+
+.padding-modal {
+    padding: 50px;
+}
+
 @media screen and (min-width: 1200px) {
     .footer-column {
         padding-left: 70px;
@@ -618,5 +639,24 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
         background-position: right;
     }
 
+    .curveBgGirl {
+        background: url(../images/weeyz_images/newlanding/orange-girl-mobile.jpg) 0% 0% / cover;
+        background-position: top;
+    }
+
+    #section-register {
+        padding-bottom: 110px;
+    }
+
+    .mobile-margin-top {
+        margin-top: 180px;
+    }
+
+    .curveBgMan {
+        background: url(../images/weeyz_images/newlanding/man-section.png) 0% 0% / cover;
+    }
+    .padding-modal {
+        padding: 40px;
+    }
 }
 
