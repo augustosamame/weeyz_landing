@@ -432,6 +432,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     background: url(../images/weeyz_images/newlanding/curvebgman.png) 0% 0% / cover;
     margin-top: -225px;
     min-height: 320px;
+    background-position: center;
 }
 
 .service-box {
