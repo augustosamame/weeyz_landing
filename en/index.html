@@ -157,7 +157,7 @@
                                 data-x="left" data-hoffset="180"
                                 data-y="center" data-voffset="80"
                                 data-start="700">
-                            <a href="#" class="button button-large button-rounded text-capitalize ls0 font-Nunito fw-normal slider-button">Solicítala aquí</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.devtech.weeyz.android&hl=es" target="_blank" class="button button-large button-rounded text-capitalize ls0 font-Nunito fw-normal slider-button">Solicítala aquí</a>
                         </div>
                         <!-- BEGIN IMAGE LAYER -->
                         <div class="tp-caption tp-resizeme"
@@ -591,7 +591,7 @@
                                 data-x="left" data-hoffset="210"
                                 data-y="top" data-voffset="360"
                                 data-start="700">
-                            <a href="#" class="button button-large button-rounded text-capitalize ls0 font-Nunito fw-normal slider-button">Solicítala aquí</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.devtech.weeyz.android&hl=es" class="button button-large button-rounded text-capitalize ls0 font-Nunito fw-normal slider-button">Solicítala aquí</a>
                         </div>
                         <!-- BEGIN IMAGE LAYER -->
                         <div class="tp-caption tp-resizeme"
@@ -1073,10 +1073,10 @@
                                                         name="template-contactform-category"
                                                         class="sm-form-control border-form-control required">
                                                     <option value="">Selecciona</option>
-                                                    <option value="">Alimentos y Bebidas</option>
-                                                    <option value="">Retail</option>
-                                                    <option value="">Servicios</option>
-                                                    <option value="">Otros</option>
+                                                    <option value="Alimentos y Bebidas">Alimentos y Bebidas</option>
+                                                    <option value="Retail">Retail</option>
+                                                    <option value="Servicios">Servicios</option>
+                                                    <option value="Otros">Otros</option>
                                                 </select>
                                             </div>
                                             <div class="w-100"></div>
@@ -1182,8 +1182,8 @@
                                 <div class="contact-form-white p-5">
                                     <div class="form-widget">
                                         <div class="form-result"></div>
-                                        <form class="row mb-0 register-form" id="template-contactform2"
-                                                name="template-contactform"
+                                        <form class="row mb-0 register-form" id="contactForm2"
+                                                name="contactForm2"
                                                 action="include/form.php" method="post">
 
                                             <div class="form-process">
@@ -1198,8 +1198,8 @@
 
                                             <div class="col-md-12 mb-4">
                                                 <label for="template-contactform-name">Nombres y apellidos</label>
-                                                <input type="text" id="template-contactform-name"
-                                                        name="template-contactform-name" value=""
+                                                <input type="text" id="contactForm2-name"
+                                                        name="contactForm2-name" value=""
                                                         class="sm-form-control border-form-control required"
                                                         placeholder="Nombres completos"/>
                                             </div>
@@ -1207,77 +1207,77 @@
                                             <div class="col-md-6 mb-4">
                                                 <label for="template-contactform-company-name">Nombre de empresa o
                                                     local</label>
-                                                <input type="text" id="template-contactform-company-name"
-                                                        name="template-contactform-company-name" value=""
+                                                <input type="text" id="contactForm2-company-name"
+                                                        name="contactForm2-company-name" value=""
                                                         class="sm-form-control border-form-control required"
                                                         placeholder="Nombre de empresa"/>
                                             </div>
                                             <div class="col-md-6 mb-4">
-                                                <label for="template-contactform-category">Categoría</label>
-                                                <select id="template-contactform-category"
-                                                        name="template-contactform-category"
+                                                <label for="contactForm2-category">Categoría</label>
+                                                <select id="contactForm2-category"
+                                                        name="contactForm2-category"
                                                         class="sm-form-control border-form-control required">
                                                     <option value="">Selecciona</option>
-                                                    <option value="">Alimentos y Bebidas</option>
-                                                    <option value="">Retail</option>
-                                                    <option value="">Servicios</option>
-                                                    <option value="">Otros</option>
+                                                    <option value="Alimentos y Bebidas">Alimentos y Bebidas</option>
+                                                    <option value="Retail">Retail</option>
+                                                    <option value="Servicios">Servicios</option>
+                                                    <option value="Otros">Otros</option>
                                                 </select>
                                             </div>
                                             <div class="w-100"></div>
                                             <div class="col-md-12 mb-4">
-                                                <label for="template-contactform-direction">Dirección</label>
-                                                <input type="text" id="template-contactform-direction"
-                                                        name="template-contactform-direction" value=""
+                                                <label for="contactForm2-direction">Dirección</label>
+                                                <input type="text" id="contactForm2-direction"
+                                                        name="contactForm2-direction" value=""
                                                         class="sm-form-control border-form-control required"
                                                         placeholder="Dirección + Distrito + Ciudad"/>
                                             </div>
                                             <div class="col-md-6 mb-4">
-                                                <label for="template-contactform-telephone">Teléfono (Whatsapp)</label>
-                                                <input type="text" id="template-contactform-telephone"
-                                                        name="template-contactform-telephone" value=""
+                                                <label for="contactForm2-telephone">Teléfono (Whatsapp)</label>
+                                                <input type="text" id="contactForm2-telephone"
+                                                        name="contactForm2-telephone" value=""
                                                         class="required telephone sm-form-control border-form-control"
                                                         placeholder="+51"/>
                                             </div>
                                             <div class="col-md-6 mb-4">
-                                                <label for="template-contactform-email">Email</label>
-                                                <input type="email" id="template-contactform-email"
-                                                        name="template-contactform-email" value=""
+                                                <label for="contactForm2-email">Email</label>
+                                                <input type="email" id="contactForm2-email"
+                                                        name="contactForm2-email" value=""
                                                         class="required email sm-form-control border-form-control"
                                                         placeholder="ejemplo@email.com"/>
                                             </div>
                                             <div class="w-100"></div>
                                             <div class="col-md-12 mb-4">
-                                                <label for="template-contactform-contacted-by">Contactado por</label>
+                                                <label for="contactForm2-contacted-by">Contactado por</label>
                                                 <input class="required sm-form-control border-form-control"
-                                                        id="template-contactform-contacted-by"
-                                                        name="template-contactform-contacted-by"
+                                                        id="contactForm2-contacted-by"
+                                                        name="contactForm2-contacted-by"
                                                         placeholder="Contacto directo de"></input>
                                             </div>
                                             <div class="w-100"></div>
                                             <div class="col-md-12">
-                                                <label for="template-contactform-message">Mensaje</label>
+                                                <label for="contactForm2-message">Mensaje</label>
                                                 <textarea class="required sm-form-control border-form-control mb-4"
-                                                        id="template-contactform-message"
-                                                        name="template-contactform-message" rows="1" cols="30"
+                                                        id="contactForm2-message"
+                                                        name="contactForm2-message" rows="1" cols="30"
                                                         placeholder="Escribir"></textarea>
                                             </div>
                                             <div class="col-md-12 center">
                                                 <button class="button button-large button-rounded text-capitalize ls0 font-Nunito fw-bold w-90"
-                                                        type="submit" id="template-contactform-submit"
-                                                        name="template-contactform-submit" value="submit">Enviar
+                                                        type="submit" id="contactForm2-submit"
+                                                        name="contactForm2-submit" value="submit">Enviar
                                                 </button>
                                             </div>
 
                                             <div class="w-100"></div>
                                             <div class="col-12 d-none">
-                                                <input type="text" id="template-contactform-botcheck"
-                                                        name="template-contactform-botcheck" value=""
+                                                <input type="text" id="contactForm2-botcheck"
+                                                        name="contactForm2-botcheck" value=""
                                                         class="sm-form-control"/>
                                             </div>
-                                            <input type="hidden" name="prefix" value="template-contactform-">
+                                            <input type="hidden" name="prefix" value="contactForm2-">
                                             <input type="hidden" name="subject" value="Contact Form Submission From Website">
-                                            <input type="hidden" name="replyto" value="template-contactform-email">
+                                            <input type="hidden" name="replyto" value="contactForm2-email">
                                             <input type="hidden" name="html_title" value="Contact Form Submission From Website">
                                         </form>
 

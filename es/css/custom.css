@@ -67,7 +67,7 @@ textarea.border-form-control {
 .menu-container > .menu-item > .menu-link {
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Lato' !important;
+    font-family: 'Nunito' !important;
     line-height: 24px;
     text-shadow: 0 0 rgb(0 0 0 / 50%);
     letter-spacing: 0;
@@ -101,13 +101,12 @@ textarea.border-form-control {
 }
 
 .before-heading {
-    font-family: 'Poppins' !important;
+    font-family: 'Nunito' !important;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 44px;
     letter-spacing: 0.105em;
-    color: #BD5611;
 
 }
 
@@ -141,11 +140,12 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 #section-intro {
-    background-image: url('../images/weeyz_images/intro_section_bg.png'), linear-gradient(180deg, #FCF0DA 0%, rgba(239, 238, 236, 0) 100%);
+    /*background-image: url('../images/weeyz_images/intro_section_bg.png'), linear-gradient(180deg, #FCF0DA 0%, rgba(239, 238, 236, 0) 100%);
     background-size: contain;
     background-position: bottom center;
-    background-repeat: no-repeat;
-    padding-top: 50px;
+    background-repeat: no-repeat;*/
+    padding-top: 600px;
+    padding-bottom: 280px;
 }
 
 .content-wrap {
@@ -163,8 +163,10 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 #section-services {
-    background: linear-gradient(180deg, rgba(239, 238, 236, 0) 24.82%, rgba(252, 240, 218, 0.7) 100%);
-    padding: 100px 0;
+    /*background: linear-gradient(180deg, rgba(239, 238, 236, 0) 24.82%, rgba(252, 240, 218, 0.7) 100%);*/
+    padding: 0;
+    background-color: #F7F6F5;
+    padding-bottom: 320px;
 }
 
 .service-icon {
@@ -195,8 +197,10 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 #section-aliado {
-    background: #FE8415 url('../images/weeyz_images/border-bg.png') center no-repeat;
-    padding: 80px 0;
+    background: #FE8415;
+    padding: 0;
+    padding-bottom: 320px;
+    margin-top: -30px;
 }
 
 .aliado-subtitle {
@@ -243,7 +247,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .big-gutter > * {
-    padding: 0px 35px;
+    padding: 0px 30px;
 }
 
 .sticky-header .menu-item:hover > .menu-link {
@@ -252,16 +256,17 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 #section-register {
-    background: #FE8415 url('../images/weeyz_images/register-bg.png') center no-repeat;
+    /*background: #FE8415 url('../images/weeyz_images/register-bg.png') center no-repeat;
     padding: 80px 0;
-    background-size: cover;
+    background-size: cover;*/
+    padding-bottom: 250px;
 }
 
 .contact-form-white {
     background: rgba(255, 255, 255, 0.88);
     backdrop-filter: blur(30px);
     border-radius: 8px;
-    font-family: 'Lato' !important;
+    font-family: 'Nunito' !important;
 }
 
 .register-form label {
@@ -272,7 +277,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     font-weight: bold;
     font-size: 13px;
     line-height: 24px;
-    font-family: 'Lato' !important;
+    font-family: 'Nunito' !important;
     margin-bottom: 5px;
 }
 
@@ -285,11 +290,17 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 #section-download {
-    background: rgba(255, 163, 53, 0.1);
+    /*background: rgba(255, 163, 53, 0.1);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
-    padding: 100px 0;
+    padding: 100px 0;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-top: 130px;
+    padding-bottom: 260px;
+
 }
 
 .button-outline {
@@ -303,36 +314,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     color: #fff;
 }
 
-#footer {
-    background: #282828;
-    color: #616E78;
-}
-
-#footer a {
-    color: #616E78;
-}
-
-.footer-logo-section {
-    border-bottom: 1px solid #616E78;
-}
-
-#footer .widget h4 {
-    font-family: 'Lato' !important;
-    font-style: normal !important;
-    font-weight: bold !important;
-    font-size: 18px !important;
-    line-height: 26px !important;
-    text-transform: unset !important;
-    color: #98A1A8 !important;
-    letter-spacing: 0 !important;
-}
-
-#footer .footer-widgets-wrap {
-    padding: 0;
-}
 
 .footer-column {
-    border-right: 1px solid #616e78;
     padding-top: 40px;
 }
 
@@ -342,27 +325,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     padding-right: 0;
 }
 
-#footer a {
-    color: #98A1A8;
-}
-
-#footer .widget_links li {
-    padding: 13px 0;
-}
-
-#footer .widget_links li a {
-    padding: 0;
-    background: transparent;
-    font-size: 16px;
-    line-height: 26px;
-}
-
-#footer .widget_links li a:hover {
-    color: #d0d0d0;
-}
-
 #copyrights, #copyrights a {
-    color: #616E78;
+    color: #fff;
 }
 
 .footer-column {
@@ -371,14 +335,221 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .text-shadow-home {
-    text-shadow: 0px 0px 5px rgb(0 0 0 / 52%);
+    text-shadow: 0px 0px 15px rgb(0 0 0 / 52%);
+}
+
+.widget {
+    margin-top: 0px;
 }
 
 .fw-bold {
     font-weight: 800 !important;
 }
+
 .link-feel li {
+    color: #fff;
+}
+
+.button-green {
+    background: #39B396;
+}
+
+.fs-30 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+}
+
+.fs-40 {
+    font-size: 40px !important;
+    line-height: 50px !important;
+}
+
+.tp-video-play-button {
+    display: none !important;
+}
+
+.tp-caption {
+    white-space: nowrap;
+}
+
+.tp-bannertimer {
+    display: none;
+}
+
+.slider-button {
+    padding: 16px 34px !important;
+    font-weight: 600 !important;
+}
+
+.user-icon-menu i {
+    width: auto !important;
+    height: auto;
+    top: 0;
+    padding: 9px 0; /* border-radius: 100%; */
+}
+
+#section-main-girl {
+    background: #FE8415 url(../images/weeyz_images/newlanding/girl-glasses.png) center no-repeat;
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.tp-static-layers .tp-parallax-wrap {
+    left: 0 !important;
+    top: 530px !important;
+}
+
+.slider-curve-bg {
+    background: url(../images/weeyz_images/newlanding/grey-curve.png) 0% 0% / cover;
+}
+
+.curveBgGrey {
+    background: url(../images/weeyz_images/newlanding/girl-glasses.png) 0% 0% / cover;
+    margin-top: -320px;
+    min-height: 320px;
+}
+
+.curveBgOrange {
+    background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;
+    margin-top: -340px;
+    min-height: 366px;
+    background-size: cover;
+}
+
+.curveBgGrey2 {
+    background: url(../images/weeyz_images/newlanding/grey-curve5.png) 0% 0% / cover;
+    margin-top: -210px;
+    min-height: 210px;
+}
+
+.curveBgGirl {
+    background: url(../images/weeyz_images/newlanding/girl2bg.png) 0% 0% / cover;
+    margin-top: -320px;
+    min-height: 320px;
+}
+
+.curveBgMan {
+    background: url(../images/weeyz_images/newlanding/curvebgman.png) 0% 0% / cover;
+    margin-top: -225px;
+    min-height: 320px;
+}
+
+.service-box {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8.75796px);
+    border-radius: 25.3981px;
+    padding: 50px 5px;
+    min-height: 320px;
+    margin-top: 10px;
+}
+
+#footer {
+    border-top: 0;
+    background: transparent;
+    margin-top: -210px;
+}
+
+.footer_top_curve {
+    background: url(../images/weeyz_images/newlanding/green-curve.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 210px;
+    background-size: cover;
+}
+
+.footer_bottom {
+    background: #1bb998;
+}
+
+.footer-logo-section {
+    border-bottom: 1px solid #616E78;
+}
+
+#footer .widget h4 {
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    text-transform: unset !important;
+    color: #fff !important;
+    letter-spacing: 0 !important;
+}
+
+#footer .footer-widgets-wrap {
+    padding: 0;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer .widget_links li {
+    padding: 7px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#footer .widget_links li a {
+    padding: 0;
+    background: transparent;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#footer .widget_links li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+.fs-26 {
+    font-size: 26px;
+    line-height: 34px;
+}
+
+#section-register2 {
+    padding-bottom: 220px;
+}
+
+.device-touch .menu-container > .menu-item > .menu-link {
+    color: #000;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: normal;
+    color: #e8630b;
+}
+
+.svg-trigger path {
+    stroke: #E8630B;
+}
+
+.modal-container {
+    border-radius: 50px;
+}
+
+.modal-close {
+    font-size: 30px;
+    position: relative;
+    left: -40px;
+    top: 0px;
     color: #98A1A8;
+}
+
+.modal-list {
+    font-size: 24px;
+    color: #616E78;
+}
+
+.padding-modal {
+    padding: 50px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -396,6 +567,12 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
         padding-left: 70px;
         padding-right: 0;
     }
+
+    #header.transparent-header:not(.sticky-header) #header-wrap {
+        background: linear-gradient(180deg, rgb(0 0 0 / 52%) 0%, rgb(0 0 0 / 0%) 100%);
+        border-bottom: 0 !important;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -404,14 +581,82 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 }
 
-@media screen and (max-width: 500px) {
-    #section-download {
-        background: rgba(255, 163, 53, 0.1) !important;
+@media screen and (max-width: 1024px) {
+    .user-icon-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-column {
+        padding: 20px;
     }
 
-    .footer-column {
-        border-bottom: 1px solid;
-        padding: 20px;
+    .device-touch #header-wrap {
+        background: #fff;
+    }
+
+    .service-box {
+        margin: 30px 30px 50px 30px;
+    }
+
+    #section-intro {
+        padding-top: 190px;
+        padding-bottom: 330px;
+    }
+
+    .curveBgGrey {
+        background-position: center !important;
+    }
+
+    .curveBgOrange {
+        margin-top: -240px;
+        min-height: 130px;
+    }
+
+    .footer_top_curve {
+        min-height: 80px;
+    }
+
+    .mt-300 {
+        margin-top: 30px;
+    }
+
+    .curveBgGrey2 {
+        background: url(../images/weeyz_images/newlanding/main-image-shape.png) 0% 0% / cover;
+        margin-top: -70px;
+        min-height: 260px;
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .slider-curve-bg {
+        background: url(../images/weeyz_images/newlanding/grey-curve2.png) 0% 0% / cover;
+        background-size: cover !important;
+        width: 810px;
+        height: 230px;
+        background-position: right;
+    }
+
+    .curveBgGirl {
+        background: url(../images/weeyz_images/newlanding/orange-girl-mobile.jpg) 0% 0% / cover;
+        background-position: top;
+    }
+
+    #section-register {
+        padding-bottom: 110px;
+    }
+
+    .mobile-margin-top {
+        margin-top: 180px;
+    }
+
+    .curveBgMan {
+        background: url(../images/weeyz_images/newlanding/man-section.png) 0% 0% / cover;
+    }
+    .padding-modal {
+        padding: 40px;
     }
 }
 
