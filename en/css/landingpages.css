@@ -51,18 +51,21 @@
 
 #section-intro {
     padding-top: 250px;
-    padding-bottom: 140px;
+    padding-bottom: 220px;
 }
 
 #section-intro2 {
     padding-top: 285px;
-    padding-bottom: 140px;
+    padding-bottom: 220px;
 }
 
 .subtitle-text-points {
     font-family: 'Poppins';
     font-size: 22px;
     line-height: 30px !important;
+}
+#section-register2 {
+    padding-bottom: 290px;
 }
 
 .icon-left {
@@ -117,7 +120,7 @@
     }
 
     #section-register2 {
-        padding-bottom: 70px;
+        padding-bottom: 290px;
     }
 
     #section-services {
