@@ -144,8 +144,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     background-size: contain;
     background-position: bottom center;
     background-repeat: no-repeat;*/
-    padding-top: 600px;
-    padding-bottom: 280px;
+    padding-top: 400px;
+    padding-bottom: 480px;
 }
 
 .content-wrap {
