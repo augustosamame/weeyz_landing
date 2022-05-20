@@ -614,9 +614,11 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     .curveBgOrange {
         margin-top: -240px;
         min-height: 130px;
+        background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;
     }
 
     .footer_top_curve {
+        margin-top: 50px;
         min-height: 80px;
     }
 
@@ -626,7 +628,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
     .curveBgGrey2 {
         background: url(../images/weeyz_images/newlanding/grey-curve.png) 0% 0% / cover;
-        margin-top: -70px;
+        margin-top: -60px;
         min-height: 260px;
         background-position: top;
         background-size: contain;
