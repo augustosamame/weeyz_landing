@@ -75,7 +75,7 @@ $mail->Password = "noreply@123";
 ---------------------------------------------------*/
 
 $message = array(
-    'success' => 'Hemos recibido su mensaje y nos comunicaremos pronto!',
+    'success' => 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.',
     'error' => 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.',
     'error_bot' => 'Bot Detected! Form could not be processed! Please Try Again!',
     'error_unexpected' => 'An <strong>unexpected error</strong> occured. Please Try Again later.',

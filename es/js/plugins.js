@@ -3757,7 +3757,7 @@ window.SEMICOLON_ajaxFormInit = function ($ajaxForm) {
 
                             elResult.removeClass('alert-danger alert-success').addClass('alert ' + alertType).html(data.message).slideDown(400);
                         } else if (elAlert == 'notify') {
-                            elResult.attr('data-notify-type', 'success').attr('data-notify-msg', 'Hemos recibido su mensaje y nos comunicaremos pronto!').html('');
+                            elResult.attr('data-notify-type', 'success').attr('data-notify-msg', 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.').html('');
                             SEMICOLON.widget.notifications({el: elResult});
                         }
 
@@ -19839,3 +19839,4 @@ window.SEMICOLON_youtubeBgVideoInit = function ($youtubeBgPlayerEl) {
     window.IntersectionObserverEntry = IntersectionObserverEntry;
 
 }());
+

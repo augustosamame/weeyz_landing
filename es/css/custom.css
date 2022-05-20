@@ -165,7 +165,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 #section-services {
     /*background: linear-gradient(180deg, rgba(239, 238, 236, 0) 24.82%, rgba(252, 240, 218, 0.7) 100%);*/
     padding: 0;
-    background-color: #F7F6F5;
+    background-color: #f9f9fa;
     padding-bottom: 320px;
 }
 
@@ -298,7 +298,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
-    padding-top: 130px;
+    padding-top: 200px;
     padding-bottom: 260px;
 
 }
@@ -396,7 +396,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
 .tp-static-layers .tp-parallax-wrap {
     left: 0 !important;
-    top: 530px !important;
+    top: 590px !important;
 }
 
 .slider-curve-bg {
@@ -410,7 +410,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .curveBgOrange {
-    background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;
+    /*background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;*/
     margin-top: -340px;
     min-height: 366px;
     background-size: cover;
@@ -420,6 +420,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     background: url(../images/weeyz_images/newlanding/grey-curve5.png) 0% 0% / cover;
     margin-top: -210px;
     min-height: 210px;
+    background-position: right;
 }
 
 .curveBgGirl {
@@ -624,7 +625,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 
     .curveBgGrey2 {
-        background: url(../images/weeyz_images/newlanding/main-image-shape.png) 0% 0% / cover;
+        background: url(../images/weeyz_images/newlanding/grey-curve.png) 0% 0% / cover;
         margin-top: -70px;
         min-height: 260px;
         background-position: top;
@@ -637,7 +638,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
         background-size: cover !important;
         width: 810px;
         height: 230px;
-        background-position: right;
+        background-position: center;
     }
 
     .curveBgGirl {
@@ -654,7 +655,9 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 
     .curveBgMan {
-        background: url(../images/weeyz_images/newlanding/man-section.png) 0% 0% / cover;
+        /*background: url(../images/weeyz_images/newlanding/man-section.png) 0% 0% / cover;*/
+        background: url(../images/weeyz_images/newlanding/curvebgman.png) 0% 0% / cover;
+        background-position: center;
     }
     .padding-modal {
         padding: 40px;
