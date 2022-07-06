@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.devtech.weeyz.android",
+               "sha256_cert_fingerprints": ["B8:2B:74:FF:A5:A1:68:DE:00:04:9E:80:F8:07:F2:4E:AE:40:30:95:0A:9A:B6:D6:7F:04:AB:6A:61:0F:C3:B9"] }
+}]
