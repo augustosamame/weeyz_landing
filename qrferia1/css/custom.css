@@ -19,10 +19,10 @@
 
 .subtitle-heading {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 40px;
-    max-width: 400px;
-    margin: 0 auto;
+    /*max-width: 400px;*/
+    /*margin: 0 auto;*/
 }
 
 .subtitle-heading-modal {
@@ -81,13 +81,13 @@
 }
 
 .button {
-    background-color: #fe8415;
+    background-color: #FE8415;
     font-size: 18px !important;
     border-radius: 10px !important;
 }
 
 .bubble-modal-bg .modal-close {
-    color: #fff;
+    color: #FFF;
 }
 
 /*.bubble-modal-bg {
@@ -102,19 +102,19 @@ ul {
 }
 
 .button-white {
-    color: #fe8415;
+    color: #FE8415;
     text-shadow: none;
-    border: 1px solid #fff;
+    border: 1px solid #FFF;
 }
 
 .button-white:hover {
-    color: #fff;
-    background-color: #fe8415 !important;
+    color: #FFF;
+    background-color: #FE8415 !important;
     text-shadow: none;
 }
 
 .nunu-div {
-    background: #fff;
+    background: #FFF;
     color: #333;
     padding: 50px;
     min-height: 410px;
@@ -125,7 +125,7 @@ ul {
 }
 
 .bubble-modal-3 {
-    background: #fe8415;
+    background: #FE8415;
     background-image: url(../images/modal-bg.jpg);
 }
 
@@ -139,7 +139,7 @@ ul {
 }
 
 .nunu-icon img {
-    background: #fff;
+    background: #FFF;
     border-radius: 100%;
     padding: 20px;
 }
@@ -152,7 +152,7 @@ ul {
 .custom-list li:before {
     width: 15px;
     height: 2px;
-    background: #fe8415;
+    background: #FE8415;
     display: block;
     content: '';
     position: relative;
@@ -170,22 +170,26 @@ ul {
 
 .bubble-modal-3 .modal-content {
     background: transparent;
-    color: #fff;
+    color: #FFF;
 }
 
 .dark #header-wrap {
-    background-color: #fe8415;
+    background-color: #FE8415;
 }
 
 .dark #header, #header.dark {
-    background-color: #fe8415;
-    border-bottom-color: #fe8415;
+    background-color: #FE8415;
+    border-bottom-color: #FE8415;
 }
 
 #header {
     position: relative;
     background-color: #FFF;
-    border-bottom: 1px solid #fe8415;
+    border-bottom: 1px solid #FE8415;
+}
+
+.bubble-bg {
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1300px) {
