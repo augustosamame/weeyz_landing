@@ -216,6 +216,12 @@ ul {
     .slider-inner {
         background-image: url("../images/mobile-bg.jpg") !important;
     }
+    .d-xs-none {
+        display: none !important;
+    }
+    .d-xs-block {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 767px) {
