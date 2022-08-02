@@ -319,6 +319,12 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     padding-top: 40px;
 }
 
+.post-footer {
+    padding-top: 30px;
+    margin 0 50%;
+    font-size: 12px !important;
+}
+
 .footer-column:last-child {
     border: 0;
     padding-left: 25px;
