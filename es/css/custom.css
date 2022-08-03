@@ -661,8 +661,17 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
         background: url(../images/weeyz_images/newlanding/curvebgman.png) 0% 0% / cover;
         background-position: center;
     }
+
     .padding-modal {
         padding: 40px;
+    }
+
+    .chaty-widget-i-title {
+        display: none;
+    }
+
+    .chaty-widget-is-right.chaty-widget.one_widget .chaty-widget-i:not(.no-tooltip):before {
+        display: none;
     }
 }
 
