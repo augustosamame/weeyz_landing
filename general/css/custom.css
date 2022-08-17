@@ -216,9 +216,11 @@ ul {
     .slider-inner {
         background-image: url("../images/mobile-bg.jpg") !important;
     }
+
     .d-xs-none {
         display: none !important;
     }
+
     .d-xs-block {
         display: block !important;
     }
@@ -245,5 +247,15 @@ ul {
         min-height: auto !important;
         padding-bottom: 10px;
         margin-bottom: 80px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #slider .slider-inner {
+        align-items: start;
+        padding-top: 50px;
     }
 }
