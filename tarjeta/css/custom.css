@@ -1,0 +1,787 @@
+/* ----------------------------------------------------------------
+	Custom CSS By Jawad Amin 成龙
+	https://www.JawadAmin.com
+-----------------------------------------------------------------*/
+
+
+/* Border Form Design
+---------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1180px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+.border-form-control {
+    height: 30px;
+    padding: 0;
+    background-color: transparent !important;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom-width: 1px;
+    border-bottom-color: #98A1A8;
+}
+
+.border-form-control::-moz-placeholder {
+    font-weight: 300;
+}
+
+.border-form-control:-ms-input-placeholder {
+    font-weight: 300;
+}
+
+.border-form-control::-webkit-input-placeholder {
+    font-weight: 300;
+}
+
+textarea.border-form-control {
+    resize: none;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.button i {
+    position: relative;
+    margin-right: 0;
+    width: 10px;
+    text-align: center;
+    top: 2px;
+}
+
+#logo img {
+    height: 40px !important;
+}
+
+#header-wrap > .container {
+    border-bottom: 0;
+}
+
+.menu-container > .menu-item > .menu-link {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Nunito' !important;
+    line-height: 24px;
+    text-shadow: 0 0 rgb(0 0 0 / 50%);
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.d-flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider .emphasis-title h1 {
+    font-family: 'Nunito' !important;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0px;
+}
+
+.sticky-header #header-wrap,
+.device-touch #header-wrap {
+    background: linear-gradient(313.29deg, #FFA335 24.64%, #FE8415 70.28%);
+}
+
+.sticky-header .menu-item.current > .menu-link {
+    background: rgb(197 96 0 / 15%);
+    color: #fff;
+}
+
+.before-heading {
+    font-family: 'Nunito' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    letter-spacing: 0.105em;
+
+}
+
+.subtitle-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px !important;
+    color: #616E78;
+    letter-spacing: 0;
+    position: relative;
+}
+
+.text-orange {
+    color: #FE8415;
+}
+
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
+    margin-bottom: 20px;
+}
+
+.button.button-rounded {
+    border-radius: 50px;
+}
+
+.button.button-large {
+    padding: 16px 66px;
+    font-size: 20px;
+    line-height: 24px;
+    text-shadow: none;
+}
+
+#section-intro {
+    /*background-image: url('../images/weeyz_images/intro_section_bg.png'), linear-gradient(180deg, #FCF0DA 0%, rgba(239, 238, 236, 0) 100%);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;*/
+    padding-top: 270px;
+    padding-bottom: 270px;
+}
+
+.content-wrap {
+    padding: 0;
+}
+
+.emptyheightsection {
+    margin-top: 250px;
+}
+
+.dots-img {
+    opacity: 0.2;
+    left: -60px;
+    top: 150px;
+}
+
+#section-services {
+    /*background: linear-gradient(180deg, rgba(239, 238, 236, 0) 24.82%, rgba(252, 240, 218, 0.7) 100%);*/
+    padding: 0;
+    background-color: #f9f9fa;
+    padding-bottom: 320px;
+}
+
+.service-icon {
+    /*background-image: url('../images/weeyz_images/icon-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 17px;
+    margin-bottom: 20px;*/
+}
+
+.service-description {
+    color: #616E78;
+    line-height: 26px !important;
+}
+
+.service-icon img {
+    margin: 0 auto;
+    max-height: 70px;
+    margin-bottom: 15px;
+}
+
+.download-icons a {
+    padding: 0 10px;
+}
+
+#section-aliado {
+    background: #fff;
+    padding: 0;
+    padding-bottom: 320px;
+    /*margin-top: -30px;*/
+}
+
+.aliado-subtitle {
+    letter-spacing: 0.105em;
+    color: #F9F9FA;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fs-120 {
+    font-size: 120px;
+    line-height: 120px;
+}
+
+.underline-after::after {
+    display: block;
+    content: '';
+    height: 3px;
+    width: 80px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.button-white {
+    background: #fff !important;
+    color: #fe8415;
+    border: 1px solid transparent;
+}
+
+.button-white:hover {
+    background: #fe8415 !important;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.fs-18 {
+    font-size: 18px;
+    line-height: 26px !important;
+}
+
+.section-icon img {
+    max-height: 71px;
+}
+
+.big-gutter > * {
+    padding: 0px 30px;
+}
+
+.sticky-header .menu-item:hover > .menu-link {
+    color: #fff;
+    background: rgb(197 96 0 / 15%);
+}
+
+#section-register {
+    /*background: #FE8415 url('../images/weeyz_images/register-bg.png') center no-repeat;
+    padding: 80px 0;
+    background-size: cover;*/
+    padding-bottom: 250px;
+}
+
+.contact-form-white {
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+    font-family: 'Nunito' !important;
+}
+
+.register-form label {
+    text-transform: capitalize;
+    letter-spacing: 0;
+    color: #616E78;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Nunito' !important;
+    margin-bottom: 5px;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+::placeholder {
+    font-family: 'Nunito' !important;
+}
+
+#section-download {
+    /*background: rgba(255, 163, 53, 0.1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 100px 0;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-top: 200px;
+    padding-bottom: 260px;
+
+}
+
+.button-outline {
+    background-color: transparent !important;
+    border: 2px solid #fe8415;
+    color: #fe8415;
+}
+
+.button-outline:hover {
+    background-color: #fe8415 !important;
+    color: #fff;
+}
+
+
+.footer-column {
+    padding-top: 40px;
+}
+
+.footer-column:last-child {
+    border: 0;
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+#copyrights, #copyrights a {
+    color: #fff;
+}
+
+.footer-column {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-shadow-home {
+    text-shadow: 0px 0px 15px rgb(0 0 0 / 52%);
+}
+
+.widget {
+    margin-top: 0px;
+}
+
+.fw-bold {
+    font-weight: 800 !important;
+}
+
+.link-feel li {
+    color: #fff;
+}
+
+.button-green {
+    background: #39B396;
+    border: 1px solid #39B396;
+}
+
+.button-green:hover {
+    background: #444;
+    border: 1px solid #444;
+}
+
+.fs-30 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+}
+
+.fs-40 {
+    font-size: 40px !important;
+    line-height: 50px !important;
+}
+
+.tp-video-play-button {
+    display: none !important;
+}
+
+.tp-caption {
+    white-space: nowrap;
+}
+
+.tp-bannertimer {
+    display: none;
+}
+
+.slider-button {
+    padding: 16px 34px !important;
+}
+
+.user-icon-menu i {
+    width: auto !important;
+    height: auto;
+    top: 0;
+    padding: 9px 0; /* border-radius: 100%; */
+}
+
+#section-main-girl {
+    background: #FE8415 url(../images/weeyz_images/newlanding/girl-glasses.png) center no-repeat;
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.tp-static-layers .tp-parallax-wrap {
+    left: 0 !important;
+    top: 590px !important;
+}
+
+.slider-curve-bg {
+    background: url(../images/weeyz_images/newlanding/grey-curve-2.png) 0% 0% / cover;
+}
+
+.curveBgGrey {
+    background: url(../images/weeyz_images/newlanding/new-orange-section.png) 0% 0% / cover;
+    margin-top: -320px;
+    min-height: 320px;
+}
+
+.curveBgOrange {
+    /*background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;*/
+    margin-top: -340px;
+    min-height: 366px;
+    background-size: cover;
+}
+
+.curveBgGrey2 {
+    background: url(../images/weeyz_images/newlanding/grey-curve5.png) 0% 0% / cover;
+    margin-top: -210px;
+    min-height: 210px;
+    background-position: right;
+}
+
+.curveBgGirl {
+    background: url(../images/weeyz_images/newlanding/girl2bg.png) 0% 0% / cover;
+    margin-top: -320px;
+    min-height: 320px;
+}
+
+.curveBgMan {
+    background: url(../images/weeyz_images/newlanding/curvebgman.png) 0% 0% / cover;
+    margin-top: -225px;
+    min-height: 320px;
+    background-position: center;
+}
+
+.service-box {
+    background: #f4f4f4;
+    backdrop-filter: blur(8.75796px);
+    border-radius: 25.3981px;
+    padding: 50px 30px;
+    min-height: 400px;
+    margin-top: 10px;
+}
+
+.service-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#footer {
+    border-top: 0;
+    background: transparent;
+    margin-top: -210px;
+}
+
+.footer_top_curve {
+    background: url(../images/weeyz_images/newlanding/green-curve.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 210px;
+    background-size: cover;
+}
+
+.footer_bottom {
+    background: #1bb998;
+}
+
+.footer-logo-section {
+    border-bottom: 1px solid #616E78;
+}
+
+#footer .widget h4 {
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    text-transform: unset !important;
+    color: #fff !important;
+    letter-spacing: 0 !important;
+}
+
+#footer .footer-widgets-wrap {
+    padding: 0;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer .widget_links li {
+    padding: 7px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#footer .widget_links li a {
+    padding: 0;
+    background: transparent;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#footer .widget_links li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+.fs-26 {
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.fs-24 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#section-register2 {
+    padding-bottom: 220px;
+}
+
+.device-touch .menu-container > .menu-item > .menu-link {
+    color: #000;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: normal;
+    color: #e8630b;
+}
+
+.svg-trigger path {
+    stroke: #E8630B;
+}
+
+.modal-container {
+    border-radius: 50px;
+}
+
+.modal-close {
+    font-size: 30px;
+    position: relative;
+    left: -40px;
+    top: 0px;
+    color: #98A1A8;
+}
+
+.modal-list {
+    font-size: 24px;
+    color: #616E78;
+}
+
+.padding-modal {
+    padding: 50px;
+}
+
+.text-shadow-slider {
+    text-shadow: 0px 4px 4px rgba(137, 39, 0, 0.25);
+}
+
+.text-green {
+    color: #1BBC9B;
+}
+
+.sticky-header {
+    display: none;
+}
+
+#section-intro .subtitle-text:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.corner-rectangle {
+    background: #FE8415;
+    position: relative;
+}
+
+.corner-rectangle:after {
+    position: absolute;
+    right: -80px;
+    content: url(../images/weeyz_images/newlanding/after-image-card.png);
+    top: -20px;
+}
+
+#section-intro .subtitle-text-1:after {
+    content: url("../images/weeyz_images/newlanding/after-image-1.png");
+}
+
+#section-intro .subtitle-text-2:after {
+    content: url("../images/weeyz_images/newlanding/after-image-2.png");
+}
+
+#section-intro .subtitle-text-3:after {
+    content: url("../images/weeyz_images/newlanding/after-image-3.png");
+}
+
+#section-intro .subtitle-text-4:after {
+    content: url("../images/weeyz_images/newlanding/after-image-4.png");
+}
+
+#section-intro .subtitle-text-5:after {
+    content: url("../images/weeyz_images/newlanding/after-image-5.png");
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.section-50p .top-heading {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.section-50p .sub-heading {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.promotion-box {
+    background: #F9F9FA;
+    border-radius: 16px;
+}
+
+.points-table {
+    border-right: 1px solid #ececec;
+}
+
+.points-table:last-child {
+    border: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .footer-column {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .footer-column:first-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer-column:last-child {
+        padding-left: 70px;
+        padding-right: 0;
+    }
+
+    #header.transparent-header:not(.sticky-header) #header-wrap {
+        background: linear-gradient(180deg, rgb(0 0 0 / 52%) 0%, rgb(0 0 0 / 0%) 100%);
+        border-bottom: 0 !important;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fs-1 {
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .user-icon-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-column {
+        padding: 20px;
+    }
+
+    .device-touch #header-wrap {
+        background: #fff;
+    }
+
+    .service-box {
+        margin: 30px 30px 50px 30px;
+    }
+
+    #section-intro {
+        padding-top: 190px;
+        padding-bottom: 330px;
+    }
+
+    .curveBgGrey {
+        background-position: center !important;
+    }
+
+    .curveBgOrange {
+        margin-top: -240px;
+        min-height: 130px;
+        background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;
+    }
+
+    .footer_top_curve {
+        margin-top: 50px;
+        min-height: 80px;
+    }
+
+    .mt-300 {
+        margin-top: 30px;
+    }
+
+    .curveBgGrey2 {
+        background: url(../images/weeyz_images/newlanding/grey-curve.png) 0% 0% / cover;
+        margin-top: -60px;
+        min-height: 260px;
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .slider-curve-bg {
+        background: url(../images/weeyz_images/newlanding/grey-curve2.png) 0% 0% / cover;
+        background-size: cover !important;
+        width: 810px;
+        height: 230px;
+        background-position: center;
+    }
+
+    .curveBgGirl {
+        background: url(../images/weeyz_images/newlanding/orange-girl-mobile.jpg) 0% 0% / cover;
+        background-position: top;
+    }
+
+    #section-register {
+        padding-bottom: 110px;
+    }
+
+    .mobile-margin-top {
+        margin-top: 180px;
+    }
+
+    .curveBgMan {
+        /*background: url(../images/weeyz_images/newlanding/man-section.png) 0% 0% / cover;*/
+        background: url(../images/weeyz_images/newlanding/curvebgman.png) 0% 0% / cover;
+        background-position: center;
+    }
+
+    .padding-modal {
+        padding: 40px;
+    }
+
+    .chaty-widget-i-title {
+        display: none;
+    }
+
+    .chaty-widget-is-right.chaty-widget.one_widget .chaty-widget-i:not(.no-tooltip):before {
+        display: none;
+    }
+
+    .corner-rectangle:after {
+        content: '';
+        display: none;
+    }
+
+    #section-intro .subtitle-text:after {
+        display: none;
+    }
+}
+

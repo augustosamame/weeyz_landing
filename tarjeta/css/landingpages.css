@@ -1,0 +1,164 @@
+/* ----------------------------------------------------------------
+	Custom CSS By Jawad Amin 成龙
+	https://www.JawadAmin.com
+-----------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+
+    #content {
+        margin-top: -104px;
+    }
+}
+
+.curveBgMan {
+    background: url(../images/weeyz_images/newlanding/curvedman-new.png) 0% 0% / cover;
+    margin-top: 0px;
+}
+
+.curveBgMan2 {
+    background: url(../images/weeyz_images/newlanding/curved-girl.png) 0% 0% / cover;
+    margin-top: 0px;
+}
+
+#logo img {
+    height: 57px !important;
+}
+
+.subtitle-agent {
+    font-size: 27px;
+    max-width: 500px;
+}
+
+#section-services {
+    background-color: #fff;
+}
+
+.font-grey {
+    color: #616E78;
+}
+
+.curveBgGrey {
+    background: url(../images/weeyz_images/newlanding/chachasection.png) 0% 0% / cover;
+    margin-top: -320px;
+    min-height: 320px;
+}
+
+.curveBgGrey2 {
+    background: url(../images/weeyz_images/newlanding/chachasection2.png) 0% 0% / cover;
+    margin-top: -320px;
+    min-height: 320px;
+}
+
+#section-intro {
+    padding-top: 250px;
+    padding-bottom: 220px;
+}
+
+#section-intro2 {
+    padding-top: 285px;
+    padding-bottom: 220px;
+}
+
+.subtitle-text-points {
+    font-family: 'Poppins';
+    font-size: 22px;
+    line-height: 30px !important;
+}
+#section-register2 {
+    padding-bottom: 440px;
+}
+
+.icon-left {
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-right: 1%;
+}
+
+.icon-right {
+    float: left;
+    width: 79%;
+}
+
+#section-registerme {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.text-green {
+    color: #39B396;
+}
+
+#footer {
+    margin-top: 0;
+}
+
+.footer_bottom {
+    background: #1bb998;
+    padding: 100px 0;
+}
+
+.blackbg {
+    background: #37383C;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    left:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:48px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float {
+    margin-top: -6px;
+}
+
+@media screen and (max-width: 500px) {
+    .mobile-margin-top {
+        margin-top: 60px;
+    }
+
+    .mt-200 {
+        margin-top: 20px;
+    }
+
+    .curveBgMan {
+        background: url(../images/weeyz_images/newlanding/man-section2.jpg) 0% 0% / cover;
+    }
+
+    .curveBgMan2 {
+        background: url(../images/weeyz_images/newlanding/man-section3.jpg) 0% 0% / cover;
+    }
+
+    #section-register2 {
+        padding-bottom: 290px;
+    }
+
+    #section-services {
+        padding-top: 80px;
+    }
+
+    .device-touch #header-wrap {
+        background: #ed6b0d;
+    }
+
+    #section-intro2 {
+        padding-top: 230px;
+        padding-bottom: 60px;
+    }
+
+    .footer_bottom {
+        padding: 50px 0;
+    }
+
+    .curveBgGrey2 {
+        background-position: right !important;
+    }
+}
