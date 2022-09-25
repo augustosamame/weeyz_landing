@@ -724,9 +724,9 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 
     .curveBgOrange {
-        margin-top: -240px;
+        margin-top: -190px;
         min-height: 130px;
-        background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;
+        /*background: url(../images/weeyz_images/newlanding/orange-curve.png) 0% 0% / cover;*/
     }
 
     .footer_top_curve {
@@ -748,11 +748,11 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 
     .slider-curve-bg {
-        background: url(../images/weeyz_images/newlanding/grey-curve2.png) 0% 0% / cover;
+        background: url(../images/weeyz_images/newlanding/grey-curve-2.png) 0% 0% / cover;
         background-size: cover !important;
         width: 810px;
         height: 230px;
-        background-position: center;
+        background-position: left;
     }
 
     .curveBgGirl {
@@ -792,6 +792,22 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 
     #section-intro .subtitle-text:after {
+        display: none;
+    }
+
+    #primary-menu-trigger {
+        display: none;
+    }
+
+    .button.button-large {
+        font-size: 16px;
+    }
+
+    .mobileCurveSection {
+        min-height: 160px;
+    }
+
+    #header {
         display: none;
     }
 }
