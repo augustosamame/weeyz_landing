@@ -196,7 +196,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 #section-aliado {
     background: #fff;
     padding: 0;
-    padding-bottom: 320px;
+    padding-bottom: 250px;
     /*margin-top: -30px;*/
 }
 
@@ -413,6 +413,12 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 .curveBgGrey {
     background: url(../images/weeyz_images/newlanding/new-orange-section.png) 0% 0% / cover;
     margin-top: -320px;
+    min-height: 320px;
+}
+
+.mobileCurveSection {
+    background: url(../images/weeyz_images/newlanding/mobile-curve.png) 0% 0% / cover;
+    margin-top: -260px;
     min-height: 320px;
 }
 
@@ -653,6 +659,11 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
 .points-table:last-child {
     border: 0;
+}
+
+#section-mobile-video {
+    background: #ededec;
+    padding-bottom: 250px;
 }
 
 @media screen and (min-width: 1200px) {
