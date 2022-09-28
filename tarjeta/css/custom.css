@@ -637,7 +637,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .section-50p .top-heading {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 40px;
     font-weight: 500;
 }
@@ -664,6 +664,17 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 #section-mobile-video {
     background: #ededec;
     padding-bottom: 250px;
+}
+
+.phone-icon {
+    width: 25px;
+    height: 30px;
+    background-image: url(../images/weeyz_images/newlanding/phone-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 7px;
 }
 
 @media screen and (min-width: 1200px) {
