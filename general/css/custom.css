@@ -45,7 +45,7 @@
 
 .bubble-bg a img {
     transition: all 0.3s ease;
-    max-height: 140px;
+    /*max-height: 140px;*/
 }
 
 .bubble-bg a:hover img {
@@ -220,7 +220,7 @@ ul {
 
 @media screen and (max-width: 480px) {
     .slider-inner {
-        background-image: url("../images/mobile-bg.jpg") !important;
+        background-image: url("../images/white-new-bg.png") !important;
     }
 
     .d-xs-none {
