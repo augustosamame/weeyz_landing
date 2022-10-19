@@ -561,6 +561,10 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     border-radius: 50px;
 }
 
+.modal-container2 {
+    border-radius: 20px;
+}
+
 .modal-close {
     font-size: 30px;
     position: relative;
@@ -570,12 +574,20 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .modal-list {
-    font-size: 24px;
+    font-size: 18px;
     color: #616E78;
 }
 
 .padding-modal {
-    padding: 50px;
+    padding: 50px 20px;
+}
+
+.padding-modal2 {
+    padding: 50px 30px;
+}
+
+.font-italic {
+    font-style: italic;
 }
 
 .text-shadow-slider {
@@ -675,6 +687,61 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     display: inline-block;
     position: relative;
     top: 7px;
+}
+
+.option-card-icon {
+    width: 39px;
+    height: 45px;
+    background-image: url(../images/weeyz_images/newlanding/form-option-card.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.card-option {
+    font-family: 'Lato';
+}
+
+.option-card-title {
+    font-size: 16px;
+    color: #616E78;
+}
+
+.option-card-sub-title {
+    font-size: 12px;
+    color: #616E78;
+    font-weight: 400;
+}
+
+.option-card-value {
+    background: linear-gradient(270deg, #FE8415 6.87%, #FFA335 100%);
+    border-radius: 20px;
+    color: #fff;
+    padding: 2px 14px;
+    margin-top: 50px;
+    font-weight: normal;
+}
+
+.card-option .form-check-input:checked {
+    background-color: #fe8415;
+    border-color: #fe8415;
+}
+
+.card-option .form-check-input[type=radio] {
+    border-radius: 50%;
+}
+
+.card-option .form-check-input {
+    width: 2em;
+    height: 2em;
+}
+
+.card-option .border {
+    border-radius: 3px;
+}
+
+.option-card-value-subtitle {
+    font-size: 11px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -786,7 +853,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 
     .padding-modal {
-        padding: 40px;
+        padding: 20px;
     }
 
     .chaty-widget-i-title {
