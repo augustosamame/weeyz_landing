@@ -744,6 +744,15 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     font-size: 11px;
 }
 
+.fs-60 {
+    font-size: 60px;
+}
+
+.subtitle-heading {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+}
 @media screen and (min-width: 1200px) {
     .footer-column {
         padding-left: 70px;
