@@ -111,7 +111,7 @@ textarea.border-form-control {
 }
 
 .subtitle-text {
-    font-family: Lato;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -171,6 +171,20 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 420px;
+}
+
+#section-about {
+    padding: 220px 0;
+    background: url('../images/weeyz_images/newlanding/section-3-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-embajador {
+    padding: 220px 0;
+    background: url('../images/weeyz_images/newlanding/embajador-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .service-icon {
@@ -704,7 +718,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .card-option {
-    font-family: 'Lato';
+    font-family: 'Poppins';
 }
 
 .option-card-title {
@@ -754,7 +768,6 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .subtitle-heading {
-    font-weight: 400;
     font-size: 55px;
     line-height: 50px !important;
 }
@@ -767,6 +780,37 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
 #header {
     display: none;
+}
+
+.name-ribbon {
+    background: url(../images/weeyz_images/newlanding/name-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px 0;
+}
+
+.heading-name {
+    line-height: 80px !important;
+    font-size: 90px;
+}
+
+.white-orange-bg {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid #ea640d;
+}
+
+.green-box {
+    background: #3eb4a4;
+    border-radius: 10px;
+    font-size: 38px;
+    margin-top: -55px;
+    margin-bottom: 15px;
+}
+
+.font-Nunito {
+    font-family: 'Nunito' !important;
 }
 
 @media screen and (min-width: 1200px) {
