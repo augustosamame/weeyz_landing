@@ -180,8 +180,9 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     background-size: cover;
 }
 
-#section-embajador {
-    padding: 220px 0;
+#section-embajador,
+#section-embajador-2 {
+    padding: 310px 0;
     background: url('../images/weeyz_images/newlanding/embajador-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -813,6 +814,12 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     font-family: 'Nunito' !important;
 }
 
+.contact-form-div {
+    background: #fff;
+    border: 3px solid #ea640d;
+    border-radius: 15px;
+}
+
 @media screen and (min-width: 1200px) {
     .footer-column {
         padding-left: 70px;
@@ -956,6 +963,67 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 
     #header {
         display: none;
+    }
+
+    .subtitle-heading {
+        font-size: 35px;
+        line-height: 1 !important;
+    }
+
+    .section-heading {
+        line-height: 1 !important;
+        font-weight: 800;
+        font-size: 60px;
+    }
+
+    .pt-6, .py-6 {
+        padding-top: 3rem !important;
+    }
+
+    #section-about {
+        background-position: 66% 30%;
+        padding: 110px 0;
+    }
+
+    #section-services {
+        background-position: right;
+        padding: 110px 0;
+    }
+
+    .fs-40 {
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+
+    .heading-name {
+        line-height: 1 !important;
+        font-size: 50px;
+    }
+
+    .green-box {
+        font-size: 24px;
+        margin-top: -45px;
+    }
+
+    .subtitle-text {
+        font-size: 20px;
+        line-height: 30px !important;
+    }
+
+    #section-embajador, #section-embajador-2 {
+        padding: 110px 0;
+    }
+
+    .slider-button {
+        padding: 10px 20px !important;
+        font-size: 22px !important;
+        line-height: 1 !important;
+    }
+
+    .mobile-bg-white {
+        background: rgb(255 255 255 / 63%);
+        padding: 10px;
+        border-radius: 10px;
     }
 }
 
