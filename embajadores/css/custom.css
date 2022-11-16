@@ -295,7 +295,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     color: #616E78;
     font-style: normal;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     font-family: 'Nunito' !important;
     margin-bottom: 5px;
@@ -376,8 +376,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 .button-green:hover {
-    background: #444;
-    border: 1px solid #444;
+    background: #e8610d;
+    border: 1px solid #e8610d;
 }
 
 .fs-30 {
