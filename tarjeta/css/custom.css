@@ -753,6 +753,14 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     font-size: 26px;
     line-height: 40px;
 }
+
+.bg-green {
+    padding: 17px;
+    background: url('../images/weeyz_images/green-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 @media screen and (min-width: 1200px) {
     .footer-column {
         padding-left: 70px;
@@ -774,6 +782,9 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
         border-bottom: 0 !important;
     }
 
+    .card-option .border {
+        min-width: 350px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -899,3 +910,8 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     }
 }
 
+@media (max-width: 767.98px) {
+    .emphasis-title h1, .emphasis-title h2 {
+        font-size: 24px !important;
+    }
+}
