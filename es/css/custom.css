@@ -554,6 +554,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     padding: 50px;
 }
 
+
 @media screen and (min-width: 1200px) {
     .footer-column {
         padding-left: 70px;
