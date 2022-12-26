@@ -792,6 +792,124 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
     text-align: justify !important;
 }
 
+/*
+ * SIGNUP FORMS
+ * 26-12-2022
+ */
+
+.signup_forms {
+    background: url(../images/weeyz_images/newlanding/comercio-bg.png) 0% 0% / cover;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:none;
+}
+
+.form-container {
+    background: rgba(249, 249, 250, 0.88);
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.new-form label {
+    font-size: 22px;
+    text-transform: none;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+.option-card-title-new {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.option-card-icon-new {
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+}
+
+.card-option-cat .cat-option-wrapper {
+    padding: 10px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.card-option-cat .border-new {
+    background: rgba(255, 241, 226, 0.3);
+    border-radius: 15px;
+}
+
+.card-option-cat:nth-child(2n) .border-new {
+    background: rgba(217, 247, 241, 0.3);
+}
+
+.card-option-cat {
+    margin-bottom: 30px;
+}
+
+.card-option-cat .cat-option-wrapper {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border: 3px solid transparent;
+}
+
+.card-option-cat .cat-option-wrapper.active {
+    border: 3px solid #70D8C2;
+}
+
+button.disabled {
+    background: #d3d3d3;
+}
+
+.option-card-alimentos {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-alementos.png);
+}
+
+.option-card-restaurantes {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-restaurantes.png);
+}
+
+.option-card-mascotas {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-mascotas.png);
+}
+
+.option-card-belleza {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-belleza.png);
+}
+
+.option-card-calzado {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-calzado.png);
+}
+
+.option-card-vehiculos {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-vehiculos.png);
+}
+
+.option-card-librerias {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-librerias.png);
+}
+
+.option-card-gimnasios {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-gimnasios.png);
+}
+
+.option-card-bebes {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-bebes.png);
+}
+
+.option-card-florerias {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-florerias.png);
+}
+
+.option-card-regalos {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-regalos.png);
+}
+
 @media screen and (min-width: 1200px) {
     .footer-column {
         padding-left: 70px;
@@ -817,12 +935,16 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
         min-width: 350px;
     }
 
+    .card-option .border-new {
+        min-width: 100%;
+    }
+
     #section-services .subtitle-text:after {
         display: block;
     }
 
     .ps-100-lg {
-        padding-left:150px;
+        padding-left: 150px;
     }
 }
 
