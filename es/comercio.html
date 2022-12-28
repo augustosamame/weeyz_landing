@@ -733,7 +733,7 @@
     }</style>
 </div><!-- #wrapper end -->
 
-<div class="signup_forms">
+<div class="signup_forms min-vh-100">
     <div class="container">
         <div class="form-header py-4">
             <a href="javascript:void(0);" class="standard-logo"
@@ -1099,14 +1099,140 @@
             <div class="section_2" style="display: none;">
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <h1 class="text-orange fw-bold font-body mb-3">¡Falta Poco!</h1>
-                        <p class="subtitle-text text-black">Ahora elige cómo deseas registrar tu comercio</p>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1 class="text-orange fw-bold font-body mb-3">¡Falta Poco!</h1>
+                                <p class="subtitle-text text-black fs-30">Ahora elige cómo deseas registrar tu comercio</p>
+                                <a href="javascript:void(0)" class="my-4 button button-large button-rounded button-outline-green w-100 text-center fw-normal button-outline-green trigger_forms_button" data-btntype="dni">DNI</a>
+                                <a href="javascript:void(0)" class="button button-large button-rounded button-outline-green w-100 text-center fw-normal button-outline-green trigger_forms_button" data-btntype="ruc">RUC</a>
+                            </div>
+                        </div>
+                        <p class="mt-5 subtitle-text fst-italic">¡Fidelizar con tus clientes nunca fue tan fácil!</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/weeyz_images/newlanding/computer-gift.png" class="img-fluid mb-5"/>
+                        <div class="img-place">
+                            <img src="images/weeyz_images/newlanding/computer-gift.png" class="img-fluid mb-5"/>
+                        </div>
+                        <div class="section_dni internal_form_section" style="display:none;">
+                            <div class="form-container ps-0">
+                                <div class="form-max-height p-5 py-0">
+                                    <p class="text-center subtitle-text">Estás registrando tu comercio con DNI</p>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-no-dni">N° DNI</label>
+                                        <input type="text" id="contactFormNew-no-dni" name="contactFormNew-no-dni" value="" class="required valid form-control form-control-lg" placeholder="N° de DNI">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-fotografia">Fotografía del
+                                            <strong>DNI del Titular</strong> (Ambas Caras)</label>
+                                        <button type="button" class="browse_button browse_button_1 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
+                                            <i class="icon-upload-alt"></i></button>
+                                        <input type="file" name="contactFormNew-fotografia" id="contactFormNew-fotografia" class="d-none input_file_1 input_file" value="">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-nombre">Nombre de Comercio</label>
+                                        <input type="text" id="contactFormNew-nombre" name="contactFormNew-nombre" value="" class="required valid form-control form-control-lg" placeholder="Nombre de Comercio">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-fotografia2">Fotografía del <strong>Comercio</strong></label>
+                                        <button type="button" class="browse_button browse_button_2 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
+                                            <i class="icon-upload-alt"></i></button>
+                                        <input type="file" name="contactFormNew-fotografia2" id="contactFormNew-fotografia2" class="d-none input_file_2 input_file" value="">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-direccion">Dirección</label>
+                                        <input type="text" id="contactFormNew-direccion" name="contactFormNew-direccion" value="" class="required valid form-control form-control-lg" placeholder="Dirección de Comercio">
+                                    </div>
+                                    <div class="group-input">
+                                        <label>Mapa</label>
+                                        <img src="images/weeyz_images/newlanding/map-image.png" class="img-fluid"/>
+                                    </div>
+                                    <div class="group-input text-center">
+                                        <button class="animated button button-desc button-proceed-2 button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-75">Siguiente</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section_ruc internal_form_section" style="display:none;">
+                            <div class="form-container ps-0">
+                                <div class="form-max-height p-5 py-0">
+                                    <p class="text-center subtitle-text">Estás registrando tu comercio con RUC</p>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-no-ruc">N° RUC</label>
+                                        <input type="text" id="contactFormNew-no-ruc" name="contactFormNew-no-ruc" value="" class="required valid form-control form-control-lg" placeholder="N° de RUC">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-fotografia3">Fotografía del<strong>Licencia de Funcionamiento</strong></label>
+                                        <button type="button" class="browse_button browse_button_1 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
+                                            <i class="icon-upload-alt"></i></button>
+                                        <input type="file" name="contactFormNew-fotografia3" id="contactFormNew-fotografia3" class="d-none input_file_1 input_file" value="">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-nombre2">Nombre de Comercio</label>
+                                        <input type="text" id="contactFormNew-nombre2" name="contactFormNew-nombre2" value="" class="required valid form-control form-control-lg" placeholder="Nombre de Comercio">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-fotografia4">Fotografía del <strong>Comercio</strong></label>
+                                        <button type="button" class="browse_button browse_button_2 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
+                                            <i class="icon-upload-alt"></i></button>
+                                        <input type="file" name="contactFormNew-fotografia4" id="contactFormNew-fotografia4" class="d-none input_file_2 input_file" value="">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-direccion2">Dirección</label>
+                                        <input type="text" id="contactFormNew-direccion2" name="contactFormNew-direccion2" value="" class="required valid form-control form-control-lg" placeholder="Dirección de Comercio">
+                                    </div>
+                                    <div class="group-input">
+                                        <label>Mapa</label>
+                                        <img src="images/weeyz_images/newlanding/map-image.png" class="img-fluid"/>
+                                    </div>
+                                    <div class="group-input text-center">
+                                        <button class="animated button button-desc button-proceed-2 button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-75">Siguiente</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="section_3" style="display: none;">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1 class="text-orange fw-bold font-body mb-3">Sube tu comercio</h1>
+                                <p class="subtitle-text text-black fs-30">¡Empieza a aumentar tus ventas con Weeyz!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="internal_form_section">
+                            <div class="form-container ps-0">
+                                <div class="form-max-height p-5 py-0">
+                                    <div class="group-input">
+                                        <label for="contactFormNew-desc">Descripción de tu Negocio *</label>
+                                        <input type="text" id="contactFormNew-desc" name="contactFormNew-desc" value="" class="required valid form-control form-control-lg" placeholder="10.....">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-fotografia5">Adjuntar logotipo</label>
+                                        <button type="button" class="browse_button browse_button_1 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
+                                            <i class="icon-upload-alt"></i></button>
+                                        <input type="file" name="contactFormNew-fotografia5" id="contactFormNew-fotografia5" class="d-none input_file_1 input_file" value="">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="contactFormNew-fotografia6">Adjuntar portada</label>
+                                        <button type="button" class="browse_button browse_button_2 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
+                                            <i class="icon-upload-alt"></i></button>
+                                        <input type="file" name="contactFormNew-fotografia6" id="contactFormNew-fotografia6" class="d-none input_file_2 input_file" value="">
+                                    </div>
+                                    <div class="group-input text-center">
+                                        <button class="animated button button-desc button-proceed-2 button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-75">Siguiente</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </form>
     </div>
 </div>
@@ -1201,7 +1327,7 @@
             });
         }
 
-        //$(".signup_trigger_btn").trigger("click");
+        $(".signup_trigger_btn").trigger("click");
     });	/*ready*/
 
     $(document).on("click", ".signup_trigger_btn", function (e) {
@@ -1209,15 +1335,35 @@
         $(".signup_forms").show();
     });
 
-    $(document).on("click",".card-option-cat",function(e){
+    $(document).on("click", ".card-option-cat", function (e) {
         var selected_value = $(this).find('input[name="contactForm2-selected-category"]:checked').val();
         $(".card-option-cat").find(".cat-option-wrapper").removeClass("active");
         $(this).find(".cat-option-wrapper").addClass("active");
         $(".button-proceed-1").removeClass("disabled pe-none");
     });
-    $(document).on("click",".button-proceed-1",function(e){
+
+    $(document).on("click", ".button-proceed-1", function (e) {
         $(".section_1").hide();
         $(".section_2").show();
+    });
+
+    $(document).on("click", ".trigger_forms_button", function (e) {
+        var btntype = $(this).data("btntype");
+        $(".trigger_forms_button").removeClass("active");
+        $(this).addClass("active");
+        $(".internal_form_section").hide();
+        $(".img-place").hide();
+        $(".section_" + btntype).show();
+    });
+
+    $(".browse_button").click(function () {
+        $(this).parents(".group-input").find(".input_file").click();
+    });
+
+    $(document).on("click", ".button-proceed-2", function (e) {
+        $(".section_2").hide();
+        $(".section_3").show();
+        $(".section_3").find(".internal_form_section").show();
     });
 </script>
 </body>
