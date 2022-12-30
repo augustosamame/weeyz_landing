@@ -220,7 +220,7 @@
                                 data-frames='[{"delay":1300,"speed":600,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
                         >
                             <!--href="#myModal2" data-lightbox="inline"-->
-                            <a class="button button-green button-large button-rounded text-capitalize ls0 font-Poppins fw-normal slider-button fs-24">Más información</a>
+                            <a class="button button-green button-large button-rounded text-capitalize ls0 font-Poppins fw-normal slider-button fs-24" href="#content">Más información</a>
                         </div>
 
                         <div class="tp-caption tp-resizeme"
@@ -519,16 +519,16 @@
                         </div>
                         <div class="col-md-12 mb-2">
                             <label for="contactForm2-name">Nombres y apellidos</label>
-                            <input type="text" id="contactForm2-name" name="contactForm2-name" value="" class="sm-form-control border-form-control required valid" placeholder="Nombres completos">
+                            <input type="text" id="contactForm2-name" name="contactForm2-name" value="" class="sm-form-control border-form-control valid" placeholder="Nombres completos">
                         </div>
                         <div class="w-100"></div>
                         <div class="col-md-12 mb-2">
                             <label for="contactForm2-telephone">Teléfono (Whatsapp)</label>
-                            <input type="text" id="contactForm2-telephone" name="contactForm2-telephone" value="" class="required telephone sm-form-control border-form-control valid" placeholder="+51">
+                            <input type="text" id="contactForm2-telephone" name="contactForm2-telephone" value="" class="telephone sm-form-control border-form-control valid" placeholder="+51">
                         </div>
                         <div class="col-md-12 mb-2">
                             <label for="contactForm2-telephone">Teléfono de la persona que te ha referido</label>
-                            <input type="text" id="contactForm2-telephone2" name="contactForm2-telephone2" value="" class="required telephone sm-form-control border-form-control valid" placeholder="+51">
+                            <input type="text" id="contactForm2-telephone2" name="contactForm2-telephone2" value="" class="telephone sm-form-control border-form-control valid" placeholder="+51">
                         </div>
                         <div class="w-100"></div>
                         <div class="col-md-4 mb-2">
@@ -537,11 +537,11 @@
                         </div>
                         <div class="col-md-4 mb-2">
                             <label for="contactForm2-direction">Distrito</label>
-                            <input type="text" id="contactForm2-district" name="contactForm2-district" value="" class="sm-form-control border-form-control required valid" placeholder="Distrito">
+                            <input type="text" id="contactForm2-district" name="contactForm2-district" value="" class="sm-form-control border-form-control valid" placeholder="Distrito">
                         </div>
                         <div class="col-md-4 mb-2">
                             <label for="contactForm2-direction">Ciudad</label>
-                            <input type="text" id="contactForm2-province" name="contactForm2-ciudad" value="" class="required sm-form-control border-form-control" placeholder="Ciudad">
+                            <input type="text" id="contactForm2-province" name="contactForm2-ciudad" value="" class="sm-form-control border-form-control" placeholder="Ciudad">
                         </div>
                         <div class="w-100 mb-4"></div>
                         <div class="row btn-group mb-3">
@@ -560,7 +560,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0">
-                                        <input type="radio" name="contactForm2-selected-card" class="required form-check-input required valid" id="selected-card-50">
+                                        <input type="radio" name="contactForm2-selected-card" class="form-check-input valid" id="selected-card-50">
                                     </div>
                                 </div>
                             </label>
@@ -579,7 +579,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0">
-                                        <input type="radio" name="contactForm2-selected-card" class="required form-check-input required valid" id="selected-card-60">
+                                        <input type="radio" name="contactForm2-selected-card" class="form-check-input valid" id="selected-card-60">
                                     </div>
                                 </div>
                             </label>
@@ -599,7 +599,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0">
-                                        <input type="radio" name="contactForm2-selected-card" class="required form-check-input required valid" id="selected-card-80">
+                                        <input type="radio" name="contactForm2-selected-card" class="form-check-input valid" id="selected-card-80">
                                     </div>
                                 </div>
                             </label>
@@ -621,7 +621,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0">
-                                        <input type="radio" name="contactForm2-selected-card" class="required form-check-input required valid" id="selected-card-200">
+                                        <input type="radio" name="contactForm2-selected-card" class="form-check-input valid" id="selected-card-200">
                                     </div>
                                 </div>
                             </label>
@@ -641,7 +641,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0">
-                                        <input type="radio" name="contactForm2-selected-card" class="required form-check-input required valid" id="selected-card-500">
+                                        <input type="radio" name="contactForm2-selected-card" class="form-check-input valid" id="selected-card-500">
                                     </div>
                                 </div>
                             </label>
@@ -755,24 +755,26 @@
                 </div>
                 <div class="form-container">
                     <div class="row g-5 mb-5">
-                        <div class="col-md-6">
-                            <label for="contactFormNew-name">Nombres y Apellidos</label>
-                            <input type="text" id="contactFormNew-name" name="contactFormNew-name" value="" class="required valid form-control form-control-lg" placeholder="Nombres y Apellidos">
+                        <div class="col-md-6 required-field">
+                            <label for="contactFormNew-name">Nombres y Apellidos <span class="text-danger">*</span>
+                            </label>
+                            <input type="text" id="contactFormNew-name" name="contactFormNew-name" value="" class="required-input form-control form-control-lg" placeholder="Nombres y Apellidos">
                         </div>
-                        <div class="col-md-6">
-                            <label for="contactFormNew-correo">Correo electrónico</label>
-                            <input type="text" id="contactFormNew-correo" name="contactFormNew-correo" value="" class="required valid form-control form-control-lg" placeholder="Correo electrónico">
+                        <div class="col-md-6 required-field">
+                            <label for="contactFormNew-correo">Correo electrónico <span class="text-danger">*</span>
+                            </label>
+                            <input type="text" id="contactFormNew-correo" name="contactFormNew-correo" value="" class="required-input form-control form-control-lg" placeholder="Correo electrónico">
                         </div>
                     </div>
 
                     <div class="row g-5 mb-5">
-                        <div class="col-md-6">
-                            <label for="contactFormNew-telephone">Teléfono</label>
-                            <input type="text" id="contactFormNew-telephone" name="contactFormNew-telephone" value="" class="required valid form-control form-control-lg" placeholder="+51">
+                        <div class="col-md-6 required-field">
+                            <label for="contactFormNew-telephone">Teléfono <span class="text-danger">*</span> </label>
+                            <input type="text" id="contactFormNew-telephone" name="contactFormNew-telephone" value="" class="required-input form-control form-control-lg" placeholder="+51">
                         </div>
                         <div class="col-md-6">
                             <label for="contactFormNew-invitado">Invitado por</label>
-                            <input type="text" id="contactFormNew-invitado" name="contactFormNew-invitado" value="" class="required valid form-control form-control-lg" placeholder="Nombre...">
+                            <input type="text" id="contactFormNew-invitado" name="contactFormNew-invitado" value="" class=" form-control form-control-lg" placeholder="Nombre...">
                         </div>
                     </div>
                     <div class="row g-5 mb-4">
@@ -780,7 +782,7 @@
                             <label>Categorías</label>
                         </div>
                     </div>
-                    <div class="row btn-group mb-3">
+                    <div class="row btn-group mb-3 selection-choices">
                         <label class="card-option card-option-cat col-md-4">
                             <div class="cat-option-wrapper">
                                 <div class="category_bg">
@@ -793,7 +795,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Alimentos" id="selected-cat-alimentos">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Alimentos" id="selected-cat-alimentos">
                                     </div>
                                 </div>
                             </div>
@@ -810,7 +812,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Restaurantes" id="selected-cat-restaurantes">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Restaurantes" id="selected-cat-restaurantes">
                                     </div>
                                 </div>
                             </div>
@@ -827,7 +829,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Farmacias" id="selected-cat-farmacias">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Farmacias" id="selected-cat-farmacias">
                                     </div>
                                 </div>
                             </div>
@@ -844,7 +846,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Experiencias" id="selected-cat-experiencias">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Experiencias" id="selected-cat-experiencias">
                                     </div>
                                 </div>
                             </div>
@@ -861,7 +863,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Licores y bebidas" id="selected-cat-licores">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Licores y bebidas" id="selected-cat-licores">
                                     </div>
                                 </div>
                             </div>
@@ -878,7 +880,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Mascotas" id="selected-cat-mascotas">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Mascotas" id="selected-cat-mascotas">
                                     </div>
                                 </div>
                             </div>
@@ -895,7 +897,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Moda" id="selected-cat-moda">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Moda" id="selected-cat-moda">
                                     </div>
                                 </div>
                             </div>
@@ -912,7 +914,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Belleza" id="selected-cat-belleza">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Belleza" id="selected-cat-belleza">
                                     </div>
                                 </div>
                             </div>
@@ -929,7 +931,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Calzado" id="selected-cat-calzado">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Calzado" id="selected-cat-calzado">
                                     </div>
                                 </div>
                             </div>
@@ -946,7 +948,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Vehículos" id="selected-cat-vehículos">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Vehículos" id="selected-cat-vehículos">
                                     </div>
                                 </div>
                             </div>
@@ -963,7 +965,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Mueblerías" id="selected-cat-mueblerias">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Mueblerías" id="selected-cat-mueblerias">
                                     </div>
                                 </div>
                             </div>
@@ -980,7 +982,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Librerías y más" id="selected-cat-librerias">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Librerías y más" id="selected-cat-librerias">
                                     </div>
                                 </div>
                             </div>
@@ -997,7 +999,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Tecnología" id="selected-cat-tecnologia">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Tecnología" id="selected-cat-tecnologia">
                                     </div>
                                 </div>
                             </div>
@@ -1014,7 +1016,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Gimnasios" id="selected-cat-gimnasios">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Gimnasios" id="selected-cat-gimnasios">
                                     </div>
                                 </div>
                             </div>
@@ -1031,7 +1033,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Bebés y juguetes" id="selected-cat-bebes">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Bebés y juguetes" id="selected-cat-bebes">
                                     </div>
                                 </div>
                             </div>
@@ -1048,7 +1050,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Florerías" id="selected-cat-florerias">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Florerías" id="selected-cat-florerias">
                                     </div>
                                 </div>
                             </div>
@@ -1065,7 +1067,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Regalos" id="selected-cat-regalos">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Regalos" id="selected-cat-regalos">
                                     </div>
                                 </div>
                             </div>
@@ -1082,7 +1084,7 @@
                                         </div>
                                     </div>
                                     <div class="ms-0 d-none">
-                                        <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Otros" id="selected-cat-otros">
+                                        <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Otros" id="selected-cat-otros">
                                     </div>
                                 </div>
                             </div>
@@ -1117,38 +1119,42 @@
                             <div class="form-container ps-0">
                                 <div class="form-max-height p-5 py-0">
                                     <p class="text-center subtitle-text">Estás registrando tu comercio con DNI</p>
-                                    <div class="group-input">
-                                        <label for="contactFormNew-no-dni"><span class="fw-bold">·</span> N° DNI</label>
-                                        <input type="text" id="contactFormNew-no-dni" name="contactFormNew-no-dni" value="" class="required valid form-control form-control-lg" placeholder="N° de DNI">
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-no-dni"><span class="fw-bold">·</span> N° DNI
+                                            <span class="text-danger">*</span> </label>
+                                        <input type="text" id="contactFormNew-no-dni" name="contactFormNew-no-dni" value="" class="required-input form-control form-control-lg" placeholder="N° de DNI">
                                     </div>
-                                    <div class="group-input">
+                                    <div class="group-input required-field">
                                         <label for="contactFormNew-fotografia"><span class="fw-bold">·</span> Fotografía del
-                                            <strong>DNI del Titular</strong> (Ambas Caras)</label>
+                                            <strong>DNI del Titular</strong> (Ambas Caras)
+                                            <span class="text-danger">*</span></label>
                                         <button type="button" class="browse_button browse_button_1 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
                                             <i class="icon-upload-alt"></i></button>
-                                        <input type="file" name="contactFormNew-fotografia" id="contactFormNew-fotografia" class="d-none input_file_1 input_file" value="">
+                                        <input type="file" name="contactFormNew-fotografia" id="contactFormNew-fotografia" class="required-input d-none input_file_1 input_file" value="">
                                     </div>
-                                    <div class="group-input">
-                                        <label for="contactFormNew-nombre"><span class="fw-bold">·</span> Nombre de Comercio</label>
-                                        <input type="text" id="contactFormNew-nombre" name="contactFormNew-nombre" value="" class="required valid form-control form-control-lg" placeholder="Nombre de Comercio">
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-nombre"><span class="fw-bold">·</span> Nombre de Comercio
+                                            <span class="text-danger">*</span></label>
+                                        <input type="text" id="contactFormNew-nombre" name="contactFormNew-nombre" value="" class="required-input form-control form-control-lg" placeholder="Nombre de Comercio">
                                     </div>
-                                    <div class="group-input">
+                                    <div class="group-input required-field">
                                         <label for="contactFormNew-fotografia2"><span class="fw-bold">·</span> Fotografía del
-                                            <strong>Comercio</strong></label>
+                                            <strong>Comercio</strong> <span class="text-danger">*</span></label>
                                         <button type="button" class="browse_button browse_button_2 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
                                             <i class="icon-upload-alt"></i></button>
-                                        <input type="file" name="contactFormNew-fotografia2" id="contactFormNew-fotografia2" class="d-none input_file_2 input_file" value="">
+                                        <input type="file" name="contactFormNew-fotografia2" id="contactFormNew-fotografia2" class="required-input d-none input_file_2 input_file" value="">
                                     </div>
-                                    <div class="group-input">
-                                        <label for="contactFormNew-direccion"><span class="fw-bold">·</span> Dirección</label>
-                                        <input type="text" id="contactFormNew-direccion" name="contactFormNew-direccion" value="" class="required valid form-control form-control-lg" placeholder="Dirección de Comercio">
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-direccion"><span class="fw-bold">·</span> Dirección
+                                            <span class="text-danger">*</span></label>
+                                        <input type="text" id="contactFormNew-direccion" name="contactFormNew-direccion" value="" class="required-input form-control form-control-lg" placeholder="Dirección de Comercio">
                                     </div>
                                     <div class="group-input">
                                         <label><span class="fw-bold">·</span> Mapa</label>
                                         <img src="images/weeyz_images/newlanding/map-image.png" class="img-fluid"/>
                                     </div>
                                     <div class="group-input text-center">
-                                        <button class="animated button button-desc button-proceed-2 button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-75">Siguiente</button>
+                                        <button class="animated button button-desc button-proceed-2 button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-75" data-btntype="dni">Siguiente</button>
                                     </div>
                                 </div>
                             </div>
@@ -1157,37 +1163,41 @@
                             <div class="form-container ps-0">
                                 <div class="form-max-height p-5 py-0">
                                     <p class="text-center subtitle-text">Estás registrando tu comercio con RUC</p>
-                                    <div class="group-input">
-                                        <label for="contactFormNew-no-ruc"><span class="fw-bold">·</span> N° RUC</label>
-                                        <input type="text" id="contactFormNew-no-ruc" name="contactFormNew-no-ruc" value="" class="required valid form-control form-control-lg" placeholder="N° de RUC">
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-no-ruc"><span class="fw-bold">·</span> N° RUC
+                                            <span class="text-danger">*</span></label>
+                                        <input type="text" id="contactFormNew-no-ruc" name="contactFormNew-no-ruc" value="" class="required-input form-control form-control-lg" placeholder="N° de RUC">
                                     </div>
-                                    <div class="group-input">
-                                        <label for="contactFormNew-fotografia3"><span class="fw-bold">·</span> Fotografía del<strong>Licencia de Funcionamiento</strong></label>
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-fotografia3"><span class="fw-bold">·</span> Fotografía del<strong> Licencia de Funcionamiento</strong>
+                                            <span class="text-danger">*</span></label>
                                         <button type="button" class="browse_button browse_button_1 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
                                             <i class="icon-upload-alt"></i></button>
-                                        <input type="file" name="contactFormNew-fotografia3" id="contactFormNew-fotografia3" class="d-none input_file_1 input_file" value="">
+                                        <input type="file" name="contactFormNew-fotografia3" id="contactFormNew-fotografia3" class="required-input d-none input_file_1 input_file" value="">
                                     </div>
-                                    <div class="group-input">
-                                        <label for="contactFormNew-nombre2"><span class="fw-bold">·</span> Nombre de Comercio</label>
-                                        <input type="text" id="contactFormNew-nombre2" name="contactFormNew-nombre2" value="" class="required valid form-control form-control-lg" placeholder="Nombre de Comercio">
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-nombre2"><span class="fw-bold">·</span> Nombre de Comercio
+                                            <span class="text-danger">*</span></label>
+                                        <input type="text" id="contactFormNew-nombre2" name="contactFormNew-nombre2" value="" class="required-input form-control form-control-lg" placeholder="Nombre de Comercio">
                                     </div>
-                                    <div class="group-input">
+                                    <div class="group-input required-field">
                                         <label for="contactFormNew-fotografia4"><span class="fw-bold">·</span> Fotografía del
-                                            <strong>Comercio</strong></label>
+                                            <strong>Comercio</strong> <span class="text-danger">*</span></label>
                                         <button type="button" class="browse_button browse_button_2 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
                                             <i class="icon-upload-alt"></i></button>
-                                        <input type="file" name="contactFormNew-fotografia4" id="contactFormNew-fotografia4" class="d-none input_file_2 input_file" value="">
+                                        <input type="file" name="contactFormNew-fotografia4" id="contactFormNew-fotografia4" class="required-input d-none input_file_2 input_file" value="">
                                     </div>
-                                    <div class="group-input">
-                                        <label for="contactFormNew-direccion2"><span class="fw-bold">·</span> Dirección</label>
-                                        <input type="text" id="contactFormNew-direccion2" name="contactFormNew-direccion2" value="" class="required valid form-control form-control-lg" placeholder="Dirección de Comercio">
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-direccion2"><span class="fw-bold">·</span> Dirección
+                                            <span class="text-danger">*</span></label>
+                                        <input type="text" id="contactFormNew-direccion2" name="contactFormNew-direccion2" value="" class="required-input form-control form-control-lg" placeholder="Dirección de Comercio">
                                     </div>
                                     <div class="group-input">
                                         <label><span class="fw-bold">·</span> Mapa</label>
                                         <img src="images/weeyz_images/newlanding/map-image.png" class="img-fluid"/>
                                     </div>
                                     <div class="group-input text-center">
-                                        <button class="animated button button-desc button-proceed-2 button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-75">Siguiente</button>
+                                        <button class="animated button button-desc button-proceed-2 button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-75" data-btntype="ruc">Siguiente</button>
                                     </div>
                                 </div>
                             </div>
@@ -1209,9 +1219,10 @@
                         <div class="internal_form_section">
                             <div class="form-container ps-0">
                                 <div class="form-max-height p-5 py-0">
-                                    <div class="group-input">
-                                        <label for="contactFormNew-desc">Descripción de tu Negocio *</label>
-                                        <input type="text" id="contactFormNew-desc" name="contactFormNew-desc" value="" class="required valid form-control form-control-lg" placeholder="10.....">
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-desc">Descripción de tu Negocio
+                                            <span class="text-danger">*</span></label>
+                                        <input type="text" id="contactFormNew-desc" name="contactFormNew-desc" value="" class="required-input form-control form-control-lg" placeholder="10.....">
                                     </div>
                                     <div class="group-input">
                                         <label for="contactFormNew-fotografia5">Adjuntar logotipo</label>
@@ -1248,9 +1259,10 @@
                                             <i class="icon-upload-alt"></i></button>
                                         <input type="file" name="contactFormNew-fotografia7" id="contactFormNew-fotografia7" class="d-none input_file_1 input_file" value="">
                                     </div>
-                                    <div class="group-input">
-                                        <label for="contactFormNew-nombre"><span class="fw-bold">·</span> Descripción de tu Negocio</label>
-                                        <input type="text" id="contactFormNew-negocio" name="contactFormNew-negocio" value="" class="required valid form-control form-control-lg" placeholder="Describe tu negocio">
+                                    <div class="group-input required-field">
+                                        <label for="contactFormNew-nombre"><span class="fw-bold">·</span> Descripción de tu Negocio
+                                            <span class="text-danger">*</span></label>
+                                        <input type="text" id="contactFormNew-negocio" name="contactFormNew-negocio" value="" class="required-input form-control form-control-lg" placeholder="Describe tu negocio">
                                     </div>
                                     <div class="group-input">
                                         <label for="contactFormNew-portada"><span class="fw-bold">·</span> Adjuntar portada</label>
@@ -1263,8 +1275,8 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <h3 class="fw-bold">· Selecciona tipo de contrato</h3>
-                            <div class="row align-items-center">
+                            <h3 class="fw-bold">· Selecciona tipo de contrato <span class="text-danger">*</span></h3>
+                            <div class="row align-items-center selection-choices">
                                 <label class="card-option card-option-cat col-md-4">
                                     <div class="d-flex-centered">
                                         <div class="cat-option-wrapper">
@@ -1280,7 +1292,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-category-new" class="required form-check-input required valid" value="Contrato de exclusividad" id="selected-cat-exclusividad">
+                                            <input type="radio" name="contactForm2-selected-category-new" class="required-input form-check-input valid" value="Contrato de exclusividad" id="selected-cat-exclusividad">
                                         </div>
                                     </div>
                                 </label>
@@ -1299,7 +1311,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-category-new" class="required form-check-input required valid" value="Contrato de exclusividad" id="selected-cat-sin-exclusividad">
+                                            <input type="radio" name="contactForm2-selected-category-new" class="required-input form-check-input valid" value="Contrato sin exclusividad" id="selected-cat-sin-exclusividad">
                                         </div>
                                     </div>
                                 </label>
@@ -1307,7 +1319,7 @@
                             <h1 class="fw-bold text-center text-orange text-uppercase font-body fs-40 my-4">CONDICIONES DE CONTRATO</h1>
                             <h3 class="fw-bold">· Cashback social</h3>
                             <p class="fs-4">Logra fidelizar con tus nuevos clientes brindando chashback social, el cual ganarán por realizar compras dentro de aplicativo en uno de nuestros comercios aliados.</p>
-                            <div class="row align-items-center">
+                            <div class="row align-items-center selection-choices">
                                 <label class="card-option card-option-cat col-md-4">
                                     <div class="cat-option-wrapper">
                                         <div class="category_bg">
@@ -1320,7 +1332,7 @@
                                                 </div>
                                             </div>
                                             <div class="ms-0 d-none">
-                                                <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Belleza" id="selected-cat-belleza">
+                                                <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Belleza" id="selected-cat-belleza">
                                             </div>
                                         </div>
                                     </div>
@@ -1337,7 +1349,7 @@
                                                 </div>
                                             </div>
                                             <div class="ms-0 d-none">
-                                                <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Belleza" id="selected-cat-belleza">
+                                                <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Belleza" id="selected-cat-belleza">
                                             </div>
                                         </div>
                                     </div>
@@ -1354,7 +1366,7 @@
                                                 </div>
                                             </div>
                                             <div class="ms-0 d-none">
-                                                <input type="radio" name="contactForm2-selected-category" class="required form-check-input required valid" value="Belleza" id="selected-cat-belleza">
+                                                <input type="radio" name="contactForm2-selected-category" class="form-check-input valid" value="Belleza" id="selected-cat-belleza">
                                             </div>
                                         </div>
                                     </div>
@@ -1374,7 +1386,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-cashback" class="required form-check-input required valid" value="5% Cashback Social" id="selected-cashback-5">
+                                            <input type="radio" name="contactForm2-selected-cashback" class="form-check-input valid" value="5% Cashback Social" id="selected-cashback-5">
                                         </div>
                                     </div>
                                 </label>
@@ -1390,7 +1402,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-cashback" class="required form-check-input required valid" value="20% Cashback Social" id="selected-cashback-20">
+                                            <input type="radio" name="contactForm2-selected-cashback" class="form-check-input valid" value="20% Cashback Social" id="selected-cashback-20">
                                         </div>
                                     </div>
                                 </label>
@@ -1406,7 +1418,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-cashback" class="required form-check-input required valid" value="40% Cashback Social" id="selected-cashback-40">
+                                            <input type="radio" name="contactForm2-selected-cashback" class="form-check-input valid" value="40% Cashback Social" id="selected-cashback-40">
                                         </div>
                                     </div>
                                 </label>
@@ -1422,7 +1434,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-cashback" class="required form-check-input required valid" value="10% Cashback Social" id="selected-cashback-15">
+                                            <input type="radio" name="contactForm2-selected-cashback" class="form-check-input valid" value="10% Cashback Social" id="selected-cashback-15">
                                         </div>
                                     </div>
                                 </label>
@@ -1438,7 +1450,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-cashback" class="required form-check-input required valid" value="30% Cashback Social" id="selected-cashback-30">
+                                            <input type="radio" name="contactForm2-selected-cashback" class="form-check-input valid" value="30% Cashback Social" id="selected-cashback-30">
                                         </div>
                                     </div>
                                 </label>
@@ -1454,7 +1466,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-cashback" class="required form-check-input required valid" value="....% Cashback Social" id="selected-cashback-0">
+                                            <input type="radio" name="contactForm2-selected-cashback" class="form-check-input valid" value="....% Cashback Social" id="selected-cashback-0">
                                         </div>
                                     </div>
                                 </label>
@@ -1465,7 +1477,7 @@
                             <h3 class="fw-bold">· Atención preferencial</h3>
                             <h3 class="fw-bold">· Forma de pago</h3>
                             <p class="fs-4">Consignaremos tus ganancias cada 48 horas en la opción a elegir:</p>
-                            <div class="row align-items-center">
+                            <div class="row align-items-center selection-choices">
                                 <label class="card-option card-option-cat col-md-4">
                                     <div class="d-flex-centered">
                                         <div class="cat-option-wrapper">
@@ -1481,7 +1493,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-forma" class="required form-check-input required valid" value="Cuenta Bancaria" id="selected-cat-cuenta">
+                                            <input type="radio" name="contactForm2-selected-forma" class="form-check-input valid" value="Cuenta Bancaria" id="selected-cat-cuenta">
                                         </div>
                                     </div>
                                 </label>
@@ -1500,7 +1512,7 @@
                                             </div>
                                         </div>
                                         <div class="ms-3">
-                                            <input type="radio" name="contactForm2-selected-forma" class="required form-check-input required valid" value="Agente Weeyz" id="selected-cat-agente">
+                                            <input type="radio" name="contactForm2-selected-forma" class="form-check-input valid" value="Agente Weeyz" id="selected-cat-agente">
                                         </div>
                                     </div>
                                 </label>
@@ -1545,6 +1557,8 @@
 <script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
 <script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
 
+</body>
+</html>
 <script>
     /******************************************
      -    PREPARE PLACEHOLDER FOR SLIDER    -
@@ -1584,14 +1598,21 @@
 
     $(document).on("click", ".card-option-cat", function (e) {
         var selected_value = $(this).find('input[name="contactForm2-selected-category"]:checked').val();
-        $(".card-option-cat").find(".cat-option-wrapper").removeClass("active");
+        // $(".card-option-cat").find(".cat-option-wrapper").removeClass("active");
+        $(this).parents(".selection-choices").find(".cat-option-wrapper").removeClass("active");
         $(this).find(".cat-option-wrapper").addClass("active");
         $(".button-proceed-1").removeClass("disabled pe-none");
     });
 
     $(document).on("click", ".button-proceed-1", function (e) {
-        $(".section_1").hide();
-        $(".section_2").show();
+        if (checkValidation($(".section_1"))) {
+            $(".section_1").hide();
+            $(".section_2").show();
+        } else {
+            $('html, body').animate({
+                scrollTop: $(".section_1").offset().top
+            }, 500);
+        }
     });
 
     $(document).on("click", ".trigger_forms_button", function (e) {
@@ -1608,14 +1629,79 @@
     });
 
     $(document).on("click", ".button-proceed-2", function (e) {
-        $(".section_2").hide();
-        $(".section_3").show();
-        $(".section_3").find(".internal_form_section").show();
+        var section_type = $(this).data('btntype');
+        console.log("section_type: " + section_type);
+        if (checkValidation($(".section_" + section_type))) {
+            $(".section_2").hide();
+            $(".section_3").show();
+            $(".section_3").find(".internal_form_section").show();
+        } else {
+            $('html, body').animate({
+                scrollTop: $(".section_2").offset().top
+            }, 500);
+        }
     });
     $(document).on("click", ".button-proceed-3", function (e) {
-        $(".section_3").hide();
-        $(".section_4").show();
+        if (checkValidation($(".section_3"))) {
+            $(".section_3").hide();
+            $(".section_4").show();
+        } else {
+            $('html, body').animate({
+                scrollTop: $(".section_3").offset().top
+            }, 500);
+        }
+    });
+
+    $(document).on("click", ".button-proceed-final", function (e) {
+        if (checkValidation($(".section_4"))) {
+        } else {
+            $('html, body').animate({
+                scrollTop: $(".section_4").offset().top
+            }, 500);
+        }
+    });
+
+    function validate(a) {
+        if ("file" == $(a).attr("type")) {
+            if ($(a).get(0).files.length === 0) {
+                return false
+            }
+        } else if ("radio" == $(a).attr("type")) {
+            var field_name = $(a).attr("name");
+            var selected_value = $('input[name=' + field_name + ']:checked').val();
+            if (typeof selected_value === undefined) {
+                return false
+            }
+        } else if ("" == $(a).val().trim()) {
+            return false
+        }
+    }
+
+    function showValidate(a) {
+        $(a).addClass("border-danger");
+    }
+
+    function checkValidation(el) {
+        var check = true;
+        var fields = $(el).find('.required-input');
+        for (var i = 0; i < fields.length; i++) {
+            // if ($(fields[i]).is(':visible')) {
+            if (validate(fields[i]) == false) {
+                showValidate(fields[i]);
+                check = false;
+            }
+            // }
+        }
+        return check;
+    }
+
+    function hideValidate(a) {
+        $(a).removeClass("border-danger");
+    }
+
+    $(".required-input").each(function () {
+        $(this).focus(function () {
+            hideValidate(this)
+        })
     });
 </script>
-</body>
-</html>
