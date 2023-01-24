@@ -930,6 +930,33 @@ button.disabled {
     background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-cuenta.png);
 }
 
+
+
+.option-card-farmacias {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-farmacias.png);
+}
+
+.option-card-experiencias {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-experiencias.png);
+}
+
+.option-card-licores {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-licores.png);
+}
+
+.option-card-mueblerias {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-mueblerias.png);
+}
+
+.option-card-tecnologia {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-tecnologia.png);
+}
+
+.option-card-otros {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-otros.png);
+}
+
+
 .button-outline-green {
     background-color: transparent !important;
     border: 2px solid #39B396;
