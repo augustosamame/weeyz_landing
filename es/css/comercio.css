@@ -956,6 +956,9 @@ button.disabled {
     background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-otros.png);
 }
 
+.option-card-moda {
+    background-image: url(../images/weeyz_images/newlanding/cat-icons/icon-moda.png);
+}
 
 .button-outline-green {
     background-color: transparent !important;
