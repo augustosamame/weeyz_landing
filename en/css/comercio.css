@@ -1006,6 +1006,23 @@ button.disabled {
 .bs-tooltip-end .tooltip-arrow::before {
     border-right-color: #70D8C2;
 }
+
+.bg-green {
+    padding: 17px;
+    background: url('../images/weeyz_images/green-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bubble-modal-3 {
+    background: #FE8415;
+    background-image: url(../images/weeyz_images/modal-bg.jpg);
+}
+
+.bubble-modal-3 .modal-content {
+    background: transparent;
+    color: #FFF;
+}
 @media screen and (min-width: 1200px) {
     .footer-column {
         padding-left: 70px;

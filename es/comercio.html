@@ -314,7 +314,7 @@
                                 data-frames='[{"delay":1100,"speed":600,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
                         >
                             <!--href="#myModal1" data-lightbox="inline"-->
-                            <a class="button button-white button-large button-rounded text-capitalize ls0 font-Poppins fw-normal slider-button fs-18">Crear cuenta</a>
+                            <a class="button button-white button-large button-rounded text-capitalize ls0 font-Poppins fw-normal slider-button fs-18 signup_trigger_btn">Crear cuenta</a>
                         </div>
                         <div class="tp-caption small_text text-wrap noshadow font-Nunito"
                                 data-x="left" data-hoffset="225"
@@ -1147,7 +1147,7 @@
                                         <input type="text" id="contactFormNew-nombre" name="contactFormNew-nombre" value="" class="required-input form-control form-control-lg" placeholder="Nombre de Comercio">
                                     </div>
                                     <div class="group-input required-field">
-                                        <label for="contactFormNew-fotografia2"><span class="fw-bold">·</span> Fotografía del
+                                        <label for="contactFormNew-fotografia2"><span class="fw-bold">·</span> Fotografía exterior del
                                             <strong>Comercio</strong> <span class="text-danger">*</span></label>
                                         <button type="button" class="browse_button browse_button_2 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
                                             <i class="icon-upload-alt"></i></button>
@@ -1159,7 +1159,7 @@
                                         <input type="text" id="contactFormNew-direccion" name="contactFormNew-direccion" value="" class="required-input form-control form-control-lg" placeholder="Dirección de Comercio">
                                     </div>
                                     <div class="group-input">
-                                        <label><span class="fw-bold">·</span> Mapa</label>
+                                        <label><span class="fw-bold">·</span> Mapa (Ubicación de tu comercio)</label>
                                         <img src="images/weeyz_images/newlanding/map-image.png" class="img-fluid"/>
                                     </div>
                                     <div class="group-input text-center">
@@ -1190,7 +1190,7 @@
                                         <input type="text" id="contactFormNew-nombre2" name="contactFormNew-nombre2" value="" class="required-input form-control form-control-lg" placeholder="Nombre de Comercio">
                                     </div>
                                     <div class="group-input required-field">
-                                        <label for="contactFormNew-fotografia4"><span class="fw-bold">·</span> Fotografía del
+                                        <label for="contactFormNew-fotografia4"><span class="fw-bold">·</span> Fotografía exterior del
                                             <strong>Comercio</strong> <span class="text-danger">*</span></label>
                                         <button type="button" class="browse_button browse_button_2 button fw-normal ls0 text-capitalize text-center button-light">Seleccionar archivo
                                             <i class="icon-upload-alt"></i></button>
@@ -1202,7 +1202,7 @@
                                         <input type="text" id="contactFormNew-direccion2" name="contactFormNew-direccion2" value="" class="required-input form-control form-control-lg" placeholder="Dirección de Comercio">
                                     </div>
                                     <div class="group-input">
-                                        <label><span class="fw-bold">·</span> Mapa</label>
+                                        <label><span class="fw-bold">·</span> Mapa (Ubicación de tu comercio)</label>
                                         <img src="images/weeyz_images/newlanding/map-image.png" class="img-fluid"/>
                                     </div>
                                     <div class="group-input text-center">
@@ -1491,7 +1491,7 @@
                             <p class="fs-4">El comercio se debe comprometer a respetar el precio brindado tanto para los usuarios en general como los usuarios Weeyz.</p>
                             <h3 class="fw-bold">· Atención preferencial</h3>
                             <h3 class="fw-bold">· Forma de pago</h3>
-                            <p class="fs-4">Consignaremos tus ganancias cada 48 horas en la opción a elegir:</p>
+                            <p class="fs-4">Consignaremos tu ganancia semanalmente, en caso contar con el check de verificación se le asignará en un plazo menos de 48 horas. Elija una opción:</p>
                             <div class="row align-items-center selection-choices">
                                 <label class="card-option card-option-cat col-md-4">
                                     <div class="d-flex-centered">
@@ -1539,8 +1539,12 @@
                             <h3 class="fw-bold">· Entrega</h3>
                             <p class="fs-4">Como aliado Weeyz, usted debe disponer de personal necesario para seleccionar los productos solicitados por nuestros usuarios para entregárselos al servicio de delivery</p>
                             <div class="row d-flex-centered">
-                                <div class="col-md-3 text-center">
-                                    <button class="animated button button-desc button-proceed-final button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-100">Finalizar</button>
+                                <div class="col-md-5 text-center">
+                                    <div class="fs-18 mb-5">
+                                        <input class="form-check-input" type="checkbox" name="terms_and_conditions" id="terms_and_conditions_checkbox"> Usted está aceptando los
+                                        <a href="javascript:void(0)">Términos y condiciones</a> y firmando el contrato de Weeyz como nuestro aliado.
+                                    </div>
+                                    <button class="animated button button-desc button-proceed-final button-rounded fadeInUp font-Nunito fw-normal ls0 text-capitalize text-center w-100 disabled pe-none">Aceptar</button>
                                 </div>
                             </div>
                         </div>
@@ -1550,6 +1554,38 @@
         </form>
     </div>
 </div>
+<div class="modal fade bubble-modal-3" tabindex="-1" role="dialog" aria-labelledby="fsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bubble-modal-bg">
+            <div class="block modal-container">
+                <div class="padding-modal container pb-0">
+                    <div id="logo" class="me-lg-0">
+                        <a href="#" data-scrollto="#slider" class="standard-logo" data-dark-logo="images/weeyz_images/weeyz-logo-white.png"><img src="images/weeyz_images/weeyz-logo-white.png" alt="MetaWeeyz Logo"></a>
+                        <a href="#" data-scrollto="#slider" class="retina-logo" data-dark-logo="images/weeyz_images/weeyz-logo-white.png"><img src="images/weeyz_images/weeyz-logo-white.png" alt="MetaWeeyz Logo"></a>
+                    </div>
+                    <div class="emphasis-title mb-3 mt-5">
+                        <div class="row d-flex-centered">
+                            <div class="col-md-7">
+                                <h2 class="font-body fw-bold fs-60 ls1 text-white text-shadow-home fadeInDown animated bg-green" data-animate="fadeInDown" data-delay="300ms">¡Bienvenido Aliado!</h2>
+                            </div>
+                        </div>
+                        <div class="row d-flex-centered mt-6">
+                            <div class="col-md-6">
+                                <img src="images/weeyz_images/newlanding/slider/chacha.png" class="img-fluid animated fadeInUp" data-animate="fadeInUp" data-delay="300ms"/>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="font-body fw-bold fs-1 ls1 text-white text-shadow-home fadeInDown animated mt-5" data-animate="fadeInDown" data-delay="300ms">Su registro fue exitoso</h2>
+                                <p class="subtitle-heading text-white pt-4 fadeInUp animated" style="text-align: left;">Le enviaremos un mensaje de texto para confirmar que su comercio ya se encuentra en nuestro Market Weeyz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <!-- Go To Top
 ============================================= -->
 <div id="gotoTop" class="icon-angle-up"></div>
@@ -1648,8 +1684,11 @@
         console.log("section_type: " + section_type);
         if (checkValidation($(".section_" + section_type))) {
             $(".section_2").hide();
-            $(".section_3").show();
-            $(".section_3").find(".internal_form_section").show();
+            /*$(".section_3").show();
+            $(".section_3").find(".internal_form_section").show();*/
+
+            $(".section_4").show();
+            $(".section_4").find(".internal_form_section").show();
         } else {
             $('html, body').animate({
                 scrollTop: $(".section_2").offset().top
@@ -1669,6 +1708,7 @@
 
     $(document).on("click", ".button-proceed-final", function (e) {
         if (checkValidation($(".section_4"))) {
+            $(".bubble-modal-3").modal("show");
         } else {
             $('html, body').animate({
                 scrollTop: $(".section_4").offset().top
@@ -1718,5 +1758,12 @@
         $(this).focus(function () {
             hideValidate(this)
         })
+    });
+    $('#terms_and_conditions_checkbox').click(function () {
+        if ($(this).prop("checked") == true) {
+            $(".button-proceed-final").removeClass("disabled pe-none");
+        } else if ($(this).prop("checked") == false) {
+            $(".button-proceed-final").addClass("disabled pe-none");
+        }
     });
 </script>
